@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+<meta name="apple-mobile-web-app-title" content="日本語"/>
+<meta name="theme-color" content="#BC002D"/>
+<link rel="manifest" href="manifest.json"/>
+<link rel="apple-touch-icon" href="icons/icon-192x192.svg"/>
+<link rel="icon" href="icons/favicon.svg" type="image/svg+xml"/>
+<title>みんなの日本語</title>
+<style>
+/* ═══════════════════════ RESET & TOKENS ═══════════════════════ */
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+:root{
+  --bg:#1A1A2E; --bg2:#16213E; --bg3:#0F2744; --card:#081422;
+  --red:#E94560; --orange:#FF6B35; --gold:#F5A623; --green:#00B894;
+  --teal:#00CEC9; --purple:#A29BFE; --pink:#FD79A8; --blue:#74B9FF;
+  --white:#FFFFFF; --light:#E8E8F0; --muted:#8899BB; --border:#1A3050;
+  --safe-t:env(safe-area-inset-top,0px); --safe-b:env(safe-area-inset-bottom,0px);
+  --radius:14px;
+}
+html,body{height:100%;overflow:hidden;background:var(--bg);color:var(--light);
+  font-family:-apple-system,BlinkMacSystemFont,'Hiragino Sans','Noto Sans JP','Segoe UI',sans-serif}
+button,input{border:none;font-family:inherit;cursor:pointer}
+a{color:inherit;text-decoration:none}
+
+/* ═══════════════════════ LAYOUT ═══════════════════════════════ */
+#app{display:flex;flex-direction:column;height:100dvh}
+#topbar{
+  background:var(--bg);border-bottom:2px solid var(--red);
+  padding:calc(var(--safe-t) + 8px) 14px 8px;
+  display:flex;align-items:center;gap:10px;flex-shrink:0;z-index:100
+}
+#topbar-title{flex:1}
+#topbar-title h1{font-size:17px;font-weight:800;color:var(--gold);line-height:1.2}
+#topbar-title span{font-size:11px;color:var(--muted);display:block}
+.icon-btn{background:none;padding:7px;border-radius:10px;font-size:20px;color:var(--light)}
+.icon-btn:active{opacity:.5}
+
+#main{flex:1;overflow:hidden;position:relative}
+.screen{position:absolute;inset:0;overflow-y:auto;-webkit-overflow-scrolling:touch;
+  display:none;flex-direction:column;padding:10px 12px calc(var(--safe-b) + 76px)}
+.screen.active{display:flex}
+
+#nav{background:var(--bg2);border-top:1px solid var(--border);
+  padding:6px 0 calc(var(--safe-b) + 6px);display:flex;flex-shrink:0}
+.nav-btn{flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;
+  background:none;padding:5px 2px;color:var(--muted);transition:color .2s}
+.nav-btn.active{color:var(--red)}
+.nav-icon{font-size:20px}.nav-label{font-size:10px;font-weight:700;letter-spacing:.3px}
+
+/* ═══════════════════════ SEARCH & FILTERS ══════════════════════ */
+.search-wrap{position:relative;margin-bottom:10px}
+.search-wrap input{width:100%;background:var(--bg3);border:1px solid var(--border);
+  border-radius:12px;color:var(--light);padding:10px 12px 10px 36px;font-size:15px;outline:none}
+.search-wrap input::placeholder{color:var(--muted)}
+.s-ico{position:absolute;left:11px;top:50%;transform:translateY(-50%);font-size:15px;color:var(--muted)}
+
+.chips{display:flex;gap:6px;overflow-x:auto;padding-bottom:8px;margin-bottom:6px;scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chip{background:var(--bg3);border:1px solid var(--border);color:var(--muted);
+  border-radius:20px;padding:5px 13px;font-size:12px;font-weight:700;white-space:nowrap;flex-shrink:0}
+.chip.on{background:var(--red);border-color:var(--red);color:#fff}
+
+/* ═══════════════════════ LESSON LIST ══════════════════════════ */
+.sec-head{font-size:10px;font-weight:800;color:var(--muted);letter-spacing:1.5px;
+  text-transform:uppercase;padding:12px 2px 5px}
+.lcard{background:var(--card);border-radius:var(--radius);margin-bottom:7px;
+  padding:12px;display:flex;align-items:center;gap:11px;border:1px solid var(--border);cursor:pointer}
+.lcard:active{opacity:.8}
+.lcard.done{border-color:var(--green)}
+.lnum{width:40px;height:40px;border-radius:10px;display:flex;align-items:center;
+  justify-content:center;font-size:13px;font-weight:900;flex-shrink:0;color:#fff}
+.linfo{flex:1;min-width:0}
+.ltitle{font-size:14px;font-weight:700;color:var(--white);
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.lsub{font-size:10px;color:var(--muted);margin-top:2px;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.lvl{font-size:10px;font-weight:800;padding:2px 7px;border-radius:6px}
+.n5{background:rgba(0,184,148,.18);color:var(--green)}
+.n4{background:rgba(0,206,201,.18);color:var(--teal)}
+.n3{background:rgba(162,155,254,.18);color:var(--purple)}
+
+/* ═══════════════════════ DETAIL ════════════════════════════════ */
+.back-row{display:flex;align-items:center;gap:8px;margin-bottom:10px}
+.back-btn{background:var(--bg3);border:1px solid var(--border);color:var(--light);
+  border-radius:10px;padding:7px 13px;font-size:13px;font-weight:600}
+.fav-btn{margin-left:auto;background:none;font-size:22px;padding:4px}
+
+.d-hero{background:linear-gradient(135deg,var(--bg3),var(--card));
+  border-radius:16px;padding:16px;margin-bottom:10px;border:1px solid var(--border)}
+.d-lnum{display:flex;align-items:center;gap:7px;margin-bottom:7px}
+.d-badge{border-radius:8px;padding:3px 10px;font-size:12px;font-weight:900;color:#fff}
+.d-title{font-size:19px;font-weight:900;color:var(--gold);margin-bottom:6px;line-height:1.3}
+.d-desc{font-size:13px;color:var(--light);line-height:1.6}
+
+/* ─── SECTION HEADINGS ─── */
+.d-section-head{font-size:10px;font-weight:800;color:var(--muted);letter-spacing:1.5px;
+  text-transform:uppercase;padding:12px 0 5px}
+
+/* ─── GRAMMAR BOX ─── */
+.gbox{background:var(--bg3);border-radius:12px;padding:13px;margin-bottom:8px;
+  border-left:3px solid var(--teal);font-size:12.5px;color:var(--light);line-height:1.6;
+  white-space:pre-wrap;word-break:break-word}
+.gbox .gbox-title{font-size:13px;font-weight:800;color:var(--teal);margin-bottom:5px}
+
+/* ─── SECTION HEADING (①②) ─── */
+.point-head{background:var(--bg3);border-radius:10px;padding:9px 12px;
+  margin-bottom:6px;font-size:13px;font-weight:700;color:var(--teal);
+  border-left:3px solid var(--teal)}
+
+/* ─── NOTE ─── */
+.note{font-size:12px;color:var(--muted);line-height:1.5;padding:3px 0 5px}
+
+/* ─── GRAMMAR TABLE ─── */
+.gtable-wrap{overflow-x:auto;margin-bottom:10px;border-radius:10px;border:1px solid var(--border)}
+table{border-collapse:collapse;width:100%;min-width:280px}
+th{background:var(--teal);color:#0A1A2E;font-size:11px;font-weight:800;
+  padding:7px 9px;text-align:left;white-space:nowrap}
+td{padding:7px 9px;font-size:12px;color:var(--light);border-bottom:1px solid var(--border);
+  vertical-align:top;line-height:1.5;white-space:pre-wrap;word-break:break-word}
+tr:last-child td{border-bottom:none}
+tr:nth-child(even) td{background:rgba(255,255,255,.03)}
+
+/* ─── EXAMPLE CARD ─── */
+.ex-card{background:var(--card);border-radius:var(--radius);padding:13px;
+  margin-bottom:7px;border:1px solid var(--border)}
+.ex-top{display:flex;align-items:flex-start;gap:8px}
+.ex-text{flex:1}
+.ex-jp{font-size:20px;font-weight:700;color:var(--white);line-height:1.4;margin-bottom:2px}
+.ex-furigana{font-size:11px;color:var(--purple);margin-bottom:3px;line-height:1.4}
+.ex-romaji{font-size:11.5px;color:var(--teal);font-style:italic;margin-bottom:5px}
+.ex-es{font-size:14px;color:var(--light)}
+.ex-es.hidden{background:var(--bg3);color:var(--bg3);border-radius:6px;cursor:pointer;
+  user-select:none;padding:2px 6px}
+.ex-es.hidden:active{background:transparent;color:var(--light)}
+.reveal-hint{font-size:10px;color:var(--muted);margin-top:5px;text-align:center}
+.audio-btn{background:rgba(0,206,201,.12);border:1px solid var(--teal);
+  border-radius:50%;width:36px;height:36px;display:flex;align-items:center;justify-content:center;
+  font-size:16px;flex-shrink:0;color:var(--teal);transition:background .15s}
+.audio-btn:active{background:rgba(0,206,201,.3)}
+.audio-btn.playing{background:rgba(0,206,201,.3);animation:pulse 1s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.5}}
+
+/* ─── DONE BTN ─── */
+.done-btn{width:100%;padding:13px;border-radius:var(--radius);font-size:15px;font-weight:800;margin-top:8px}
+.done-btn.mark{background:var(--green);color:#0A1A2E}
+.done-btn.unmark{background:var(--bg3);color:var(--muted);border:1px solid var(--border)}
+
+/* ═══════════════════════ FLASHCARDS ═══════════════════════════ */
+.fc-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px}
+.fc-counter{font-size:13px;color:var(--muted)}
+.fc-mode-btn{background:var(--bg3);border:1px solid var(--border);color:var(--teal);
+  border-radius:20px;padding:5px 13px;font-size:12px;font-weight:700}
+.fc-progress{background:var(--bg3);border-radius:4px;height:5px;margin-bottom:14px;overflow:hidden}
+.fc-fill{height:100%;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:4px;transition:width .3s}
+
+.card-scene{perspective:1000px;margin-bottom:12px;cursor:pointer}
+.card-3d{position:relative;transform-style:preserve-3d;transition:transform .45s;
+  border-radius:20px;height:210px}
+.card-3d.flipped{transform:rotateY(180deg)}
+.card-face{position:absolute;inset:0;backface-visibility:hidden;border-radius:20px;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  padding:20px;text-align:center}
+.card-front{background:linear-gradient(135deg,var(--bg3),var(--card));border:1px solid var(--border)}
+.card-back{background:linear-gradient(135deg,#0A2010,var(--card));
+  border:1px solid var(--green);transform:rotateY(180deg)}
+.cf-label{font-size:10px;font-weight:800;color:var(--muted);letter-spacing:1.5px;
+  text-transform:uppercase;margin-bottom:10px}
+.cf-jp{font-size:30px;font-weight:800;color:var(--white);line-height:1.3;margin-bottom:6px}
+.cf-furi{font-size:12px;color:var(--purple);margin-bottom:4px}
+.cf-roma{font-size:12px;color:var(--teal);font-style:italic;margin-bottom:2px}
+.cf-es{font-size:18px;color:var(--green);font-weight:700;line-height:1.4}
+.cf-tap{font-size:11px;color:var(--muted);margin-top:8px}
+.fc-audio-btn{background:rgba(0,206,201,.15);border:1px solid var(--teal);
+  border-radius:10px;padding:7px 16px;font-size:13px;color:var(--teal);font-weight:700;margin-bottom:10px;align-self:center}
+
+.fc-btns{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-top:4px}
+.fc-btn{padding:11px 6px;border-radius:12px;font-size:13px;font-weight:800;text-align:center}
+.fc-btn.prev{background:var(--bg3);border:1px solid var(--border);color:var(--muted)}
+.fc-btn.flip{background:var(--purple);color:#1A1A2E}
+.fc-btn.next{background:var(--red);color:#fff}
+
+/* ═══════════════════════ QUIZ ═══════════════════════════════════ */
+.qz-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}
+.qz-ctr{font-size:13px;color:var(--muted)}
+.qz-score{background:var(--card);border-radius:20px;padding:4px 11px;font-size:13px;font-weight:800;color:var(--gold)}
+.qz-bar{background:var(--bg3);border-radius:4px;height:5px;margin-bottom:14px;overflow:hidden}
+.qz-fill{height:100%;background:linear-gradient(90deg,var(--red),var(--gold));border-radius:4px;transition:width .3s}
+
+.qz-card{background:var(--card);border-radius:18px;padding:22px;text-align:center;
+  border:1px solid var(--border);margin-bottom:12px;min-height:150px;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px}
+.qz-jp{font-size:28px;font-weight:800;color:var(--white);line-height:1.3}
+.qz-furi{font-size:12px;color:var(--purple)}
+.qz-roma{font-size:12px;color:var(--teal);font-style:italic}
+.qz-ltag{font-size:11px;color:var(--muted)}
+.qz-audio{background:rgba(0,206,201,.12);border:1px solid var(--teal);
+  border-radius:20px;padding:4px 12px;font-size:12px;color:var(--teal);font-weight:700;margin-top:4px}
+
+.qz-opts{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin-bottom:10px}
+.qopt{background:var(--bg3);border:2px solid var(--border);border-radius:12px;
+  padding:11px 8px;font-size:13px;color:var(--light);text-align:center;transition:all .2s;line-height:1.4}
+.qopt:active:not(:disabled){transform:scale(.97)}
+.qopt.ok{background:rgba(0,184,148,.15);border-color:var(--green);color:var(--green);font-weight:700}
+.qopt.ko{background:rgba(233,69,96,.15);border-color:var(--red);color:var(--red)}
+.qopt:disabled{cursor:not-allowed}
+
+.qz-fb{border-radius:12px;padding:11px;text-align:center;font-size:14px;font-weight:700;
+  margin-bottom:8px;display:none}
+.qz-fb.show{display:block}
+.qz-fb.ok{background:rgba(0,184,148,.15);color:var(--green)}
+.qz-fb.ko{background:rgba(233,69,96,.15);color:var(--red)}
+.qz-next{width:100%;padding:13px;border-radius:var(--radius);
+  background:var(--red);color:#fff;font-size:15px;font-weight:800;display:none}
+.qz-next.show{display:block}
+
+.qz-result{text-align:center;padding:24px 12px}
+.qr-emoji{font-size:56px;margin-bottom:8px}
+.qr-score{font-size:38px;font-weight:900;color:var(--gold)}
+.qr-label{font-size:14px;color:var(--muted);margin-bottom:20px}
+.qr-restart{background:var(--red);color:#fff;border-radius:var(--radius);
+  padding:13px 28px;font-size:16px;font-weight:800}
+
+/* ═══════════════════════ PROGRESS ══════════════════════════════ */
+.prog-hero{background:linear-gradient(135deg,var(--red),var(--orange));
+  border-radius:18px;padding:20px;margin-bottom:12px;text-align:center}
+.prog-pct{font-size:50px;font-weight:900;color:#fff}
+.prog-lbl{font-size:13px;color:rgba(255,255,255,.8);margin-top:3px}
+.prog-bar-wrap{background:rgba(0,0,0,.25);border-radius:8px;height:9px;overflow:hidden;margin-top:11px}
+.prog-bar{height:100%;background:#fff;border-radius:8px;transition:width .6s}
+.streak{background:var(--card);border-radius:var(--radius);padding:13px;
+  border:1px solid var(--gold);display:flex;align-items:center;gap:11px;margin-bottom:12px}
+.streak-num{font-size:18px;font-weight:800;color:var(--gold)}
+.streak-lbl{font-size:11px;color:var(--muted)}
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-bottom:12px}
+.stat{background:var(--card);border-radius:var(--radius);padding:14px;text-align:center;border:1px solid var(--border)}
+.stat-n{font-size:26px;font-weight:900}
+.stat-l{font-size:11px;color:var(--muted);margin-top:3px}
+.lvl-bar{background:var(--card);border-radius:12px;padding:13px;margin-bottom:7px;border:1px solid var(--border)}
+.lvl-top{display:flex;justify-content:space-between;margin-bottom:7px}
+.lvl-name{font-size:13px;font-weight:700;color:var(--light)}
+.lvl-cnt{font-size:12px;color:var(--muted)}
+.lvl-track{background:var(--bg3);border-radius:5px;height:7px;overflow:hidden}
+.lvl-fill{height:100%;border-radius:5px;transition:width .6s}
+.reset-btn{width:100%;padding:11px;border-radius:12px;background:var(--bg3);
+  color:var(--muted);font-size:13px;border:1px solid var(--border);margin-top:8px}
+
+/* ═══════════════════════ UTILS ════════════════════════════════ */
+.empty{text-align:center;padding:40px 16px;color:var(--muted)}
+.empty .ei{font-size:36px;margin-bottom:8px}
+::-webkit-scrollbar{width:3px}
+::-webkit-scrollbar-thumb{background:var(--border);border-radius:2px}
+@keyframes fadeUp{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+.lcard,.ex-card,.stat,.lvl-bar{animation:fadeUp .2s ease both}
+</style>
+</head>
+<body>
+<div id="app">
+
+<!-- TOP BAR -->
+<div id="topbar">
+  <div style="font-size:26px">🇯🇵</div>
+  <div id="topbar-title">
+    <h1>みんなの日本語</h1>
+    <span>Gramática Completa L1–50</span>
+  </div>
+  <button class="icon-btn" onclick="toggleSearch()" title="Buscar">🔍</button>
+  <button class="icon-btn" onclick="toggleAudioInfo()" title="Audio">🔊</button>
+</div>
+
+<!-- MAIN -->
+<div id="main">
+
+  <!-- ── LECCIONES ── -->
+  <div id="s-home" class="screen active">
+    <div id="search-bar" style="display:none" class="search-wrap">
+      <span class="s-ico">🔍</span>
+      <input id="search-input" type="search" placeholder="Buscar lección, partícula, kanji, romaji..." oninput="filterLessons(this.value)"/>
+    </div>
+    <div class="chips" id="chips">
+      <button class="chip on" onclick="setFilter('all',this)">Todas</button>
+      <button class="chip" onclick="setFilter('pending',this)">Pendientes</button>
+      <button class="chip" onclick="setFilter('done',this)">✅ Completadas</button>
+      <button class="chip" onclick="setFilter('fav',this)">⭐ Favoritas</button>
+      <button class="chip" onclick="setFilter('n5',this)">N5</button>
+      <button class="chip" onclick="setFilter('n4',this)">N4</button>
+      <button class="chip" onclick="setFilter('n3',this)">N3</button>
+    </div>
+    <div id="lessons-list"></div>
+  </div>
+
+  <!-- ── DETALLE ── -->
+  <div id="s-detail" class="screen">
+    <div class="back-row">
+      <button class="back-btn" onclick="goHome()">← Volver</button>
+      <span id="d-backtitle" style="font-size:13px;color:var(--muted)"></span>
+      <button class="fav-btn" id="fav-btn" onclick="toggleFav()"></button>
+    </div>
+    <div id="detail-content"></div>
+  </div>
+
+  <!-- ── FLASHCARDS ── -->
+  <div id="s-flash" class="screen">
+    <div id="flash-content"></div>
+  </div>
+
+  <!-- ── QUIZ ── -->
+  <div id="s-quiz" class="screen">
+    <div id="quiz-content"></div>
+  </div>
+
+  <!-- ── PROGRESO ── -->
+  <div id="s-prog" class="screen">
+    <div id="prog-content"></div>
+  </div>
+
+</div>
+
+<!-- BOTTOM NAV -->
+<nav id="nav">
+  <button class="nav-btn active" id="nav-home" onclick="showScreen('home')">
+    <span class="nav-icon">📚</span><span class="nav-label">Lecciones</span>
+  </button>
+  <button class="nav-btn" id="nav-flash" onclick="showScreen('flash')">
+    <span class="nav-icon">🃏</span><span class="nav-label">Flashcards</span>
+  </button>
+  <button class="nav-btn" id="nav-quiz" onclick="showScreen('quiz')">
+    <span class="nav-icon">🧠</span><span class="nav-label">Quiz</span>
+  </button>
+  <button class="nav-btn" id="nav-prog" onclick="showScreen('prog')">
+    <span class="nav-icon">📊</span><span class="nav-label">Progreso</span>
+  </button>
+</nav>
+
+</div><!-- /app -->
+
+<script>
+// ══════════════════════════════════════════════════════════════
+// STATE & DATA
+// ══════════════════════════════════════════════════════════════
+let LESSONS = [];
+let state = { done:{}, favs:{}, streak:1, lastStudied:null, quizScores:[], showRomaji:true, showFurigana:true };
+
+// Audio
+let tts = window.speechSynthesis;
+let jpVoice = null;
+let currentAudioBtn = null;
+
+// UI state
+let currentFilter = 'all';
+let currentLesson = null;
+let searchOpen = false;
+
+// Flashcard state
+let fc = { pool:[], idx:0, flipped:false, mode:'jp-es' };
+
+// Quiz state
+let qz = { pool:[], idx:0, score:0, answered:false };
+
+// ══════════════════════════════════════════════════════════════
+// BOOT
+// ══════════════════════════════════════════════════════════════
+async function init() {
+  // Load saved state
+  try { const s = localStorage.getItem('minna_state2'); if(s) state = {...state,...JSON.parse(s)}; } catch(e){}
+
+  // Service worker
+  if('serviceWorker' in navigator) navigator.serviceWorker.register('./sw.js').catch(()=>{});
+
+  // Load lessons
+  try {
+    const r = await fetch('./lessons_data.json');
+    LESSONS = await r.json();
+  } catch(e){ LESSONS = []; }
+
+  // Init TTS voice
+  initTTS();
+
+  // Update streak
+  const today = new Date().toDateString();
+  if(state.lastStudied !== today) {
+    const yest = new Date(Date.now()-86400000).toDateString();
+    state.streak = (state.lastStudied === yest) ? (state.streak||0)+1 : 1;
+    state.lastStudied = today;
+    save();
+  }
+
+  renderLessons();
+  renderProgress();
+}
+
+function save() {
+  try { localStorage.setItem('minna_state2', JSON.stringify(state)); } catch(e){}
+}
+
+// ══════════════════════════════════════════════════════════════
+// TTS / AUDIO
+// ══════════════════════════════════════════════════════════════
+function initTTS() {
+  if(!tts) return;
+  function loadVoices() {
+    const voices = tts.getVoices();
+    jpVoice = voices.find(v => v.lang === 'ja-JP' && v.localService) ||
+              voices.find(v => v.lang === 'ja-JP') ||
+              voices.find(v => v.lang.startsWith('ja'));
+  }
+  loadVoices();
+  if(tts.onvoiceschanged !== undefined) tts.onvoiceschanged = loadVoices;
+}
+
+function speakJP(text, btn) {
+  if(!tts) return;
+  tts.cancel();
+  if(currentAudioBtn && currentAudioBtn !== btn) {
+    currentAudioBtn.textContent = '🔊';
+    currentAudioBtn.classList.remove('playing');
+  }
+  // strip furigana brackets
+  const clean = text.replace(/【[^】]*】/g,'').replace(/\([^)]*\)/g,'').trim();
+  const utt = new SpeechSynthesisUtterance(clean);
+  utt.lang = 'ja-JP';
+  utt.rate = 0.85;
+  utt.pitch = 1.05;
+  if(jpVoice) utt.voice = jpVoice;
+  if(btn) {
+    btn.textContent = '⏸';
+    btn.classList.add('playing');
+    currentAudioBtn = btn;
+  }
+  utt.onend = utt.onerror = () => {
+    if(btn){ btn.textContent='🔊'; btn.classList.remove('playing'); }
+    currentAudioBtn = null;
+  };
+  tts.speak(utt);
+}
+
+function toggleAudioInfo() {
+  alert('🔊 Audio japonés\n\nEsta app usa la síntesis de voz de tu dispositivo.\n\nEn iPhone, ve a:\nAjustes → Accesibilidad → Contenido hablado → Voces → Japonés\ny descarga "Kyoko" o "Otoya" para la mejor pronunciación.\n\nEn Android funciona automáticamente con Google TTS.');
+}
+
+// ══════════════════════════════════════════════════════════════
+// SCREENS
+// ══════════════════════════════════════════════════════════════
+function showScreen(name) {
+  tts && tts.cancel();
+  document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));
+  document.querySelectorAll('.nav-btn').forEach(b=>b.classList.remove('active'));
+  document.getElementById('s-'+name).classList.add('active');
+  const nb = document.getElementById('nav-'+name);
+  if(nb) nb.classList.add('active');
+  if(name==='flash') startFlash();
+  if(name==='quiz') startQuiz();
+  if(name==='prog') renderProgress();
+  if(name==='home') renderLessons();
+}
+
+function goHome() {
+  tts && tts.cancel();
+  document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));
+  document.getElementById('s-home').classList.add('active');
+  document.querySelectorAll('.nav-btn').forEach(b=>b.classList.remove('active'));
+  document.getElementById('nav-home').classList.add('active');
+}
+
+// ══════════════════════════════════════════════════════════════
+// HELPERS
+// ══════════════════════════════════════════════════════════════
+const COLORS = ['#E94560','#FF6B35','#F5A623','#00B894','#00CEC9','#A29BFE','#FD79A8','#74B9FF','#F5A623','#E94560'];
+function numColor(n){ return COLORS[n % COLORS.length]; }
+function levelClass(n){ return n<=25?'n5':n<=40?'n4':'n3'; }
+function levelLabel(n){ return n<=25?'N5':n<=40?'N4':'N3'; }
+
+// ══════════════════════════════════════════════════════════════
+// LESSON LIST
+// ══════════════════════════════════════════════════════════════
+function renderLessons(q='') {
+  const ql = q.toLowerCase();
+  let list = LESSONS.filter(l => {
+    if(ql) return (
+      l.title.toLowerCase().includes(ql) ||
+      l.description.toLowerCase().includes(ql) ||
+      l.content.some(c =>
+        (c.text||'').toLowerCase().includes(ql) ||
+        (c.jp||'').includes(ql) ||
+        (c.furigana||'').includes(ql) ||
+        (c.romaji||'').toLowerCase().includes(ql) ||
+        (c.es||'').toLowerCase().includes(ql) ||
+        (c.rows||[]).some(row=>row.some(cell=>cell.toLowerCase().includes(ql)))
+      )
+    );
+    if(currentFilter==='done') return !!state.done[l.num];
+    if(currentFilter==='pending') return !state.done[l.num];
+    if(currentFilter==='fav') return !!state.favs[l.num];
+    if(currentFilter==='n5') return l.num<=25;
+    if(currentFilter==='n4') return l.num>25&&l.num<=40;
+    if(currentFilter==='n3') return l.num>40;
+    return true;
+  });
+
+  const el = document.getElementById('lessons-list');
+  if(!list.length){ el.innerHTML=`<div class="empty"><div class="ei">🔍</div><p>Sin resultados</p></div>`; return; }
+
+  if(ql) {
+    el.innerHTML = `<div class="sec-head">${list.length} resultado${list.length!==1?'s':''}</div>` +
+      list.map(lessonCardHtml).join('');
+    return;
+  }
+
+  const groups = [
+    {label:'N5 — Básico', items: list.filter(l=>l.num<=25)},
+    {label:'N4 — Intermedio', items: list.filter(l=>l.num>25&&l.num<=40)},
+    {label:'N3 — Avanzado', items: list.filter(l=>l.num>40)},
+  ].filter(g=>g.items.length);
+
+  el.innerHTML = groups.map(g =>
+    `<div class="sec-head">${g.label} · ${g.items.length} lecc.</div>` +
+    g.items.map(lessonCardHtml).join('')
+  ).join('');
+}
+
+function lessonCardHtml(l) {
+  const done = !!state.done[l.num];
+  const fav  = !!state.favs[l.num];
+  const exs  = l.content.filter(c=>c.type==='example');
+  const sub  = l.content.filter(c=>c.type==='section').map(c=>c.text.replace(/^[①②③④⑤⑥⑦⑧⑨]\s*/,'')).slice(0,2).join(' · ') || l.description.slice(0,60);
+  return `<div class="lcard ${done?'done':''}" onclick="openLesson(${l.num})">
+    <div class="lnum" style="background:${numColor(l.num)}">${l.num}</div>
+    <div class="linfo">
+      <div class="ltitle">${l.title}</div>
+      <div class="lsub">${sub}</div>
+    </div>
+    <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0">
+      <span class="lvl ${levelClass(l.num)}">${levelLabel(l.num)}</span>
+      <span style="font-size:12px">${done?'✅':''}${fav?'⭐':''}</span>
+    </div>
+  </div>`;
+}
+
+function setFilter(f, btn) {
+  currentFilter = f;
+  document.querySelectorAll('.chip').forEach(c=>c.classList.remove('on'));
+  btn.classList.add('on');
+  renderLessons();
+}
+
+function filterLessons(q){ renderLessons(q); }
+
+function toggleSearch(){
+  searchOpen = !searchOpen;
+  const bar = document.getElementById('search-bar');
+  bar.style.display = searchOpen ? 'block' : 'none';
+  if(searchOpen) setTimeout(()=>document.getElementById('search-input').focus(),100);
+  else { document.getElementById('search-input').value=''; renderLessons(); }
+}
+
+// ══════════════════════════════════════════════════════════════
+// LESSON DETAIL
+// ══════════════════════════════════════════════════════════════
+function openLesson(num) {
+  currentLesson = num;
+  const l = LESSONS.find(l=>l.num===num);
+  if(!l) return;
+  document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));
+  document.getElementById('s-detail').classList.add('active');
+  document.getElementById('d-backtitle').textContent = `Lección ${num}`;
+  document.getElementById('fav-btn').textContent = state.favs[num]?'⭐':'☆';
+
+  const done = !!state.done[num];
+  let html = `
+    <div class="d-hero">
+      <div class="d-lnum">
+        <span class="d-badge" style="background:${numColor(num)}">L${num}</span>
+        <span class="lvl ${levelClass(num)}">${levelLabel(num)}</span>
+        ${done?'<span style="color:var(--green);font-size:12px;font-weight:700">✓ Completada</span>':''}
+      </div>
+      <div class="d-title">${l.title}</div>
+      <div class="d-desc">${l.description}</div>
+    </div>`;
+
+  // Toggle buttons for furigana/romaji
+  html += `<div style="display:flex;gap:7px;margin-bottom:10px;flex-wrap:wrap">
+    <button onclick="toggleFurigana()" id="furi-toggle" style="background:${state.showFurigana?'rgba(162,155,254,.2)':'var(--bg3)'};border:1px solid ${state.showFurigana?'var(--purple)':'var(--border)'};color:${state.showFurigana?'var(--purple)':'var(--muted)'};border-radius:20px;padding:5px 13px;font-size:12px;font-weight:700">🈺 Furigana</button>
+    <button onclick="toggleRomaji()" id="roma-toggle" style="background:${state.showRomaji?'rgba(0,206,201,.2)':'var(--bg3)'};border:1px solid ${state.showRomaji?'var(--teal)':'var(--border)'};color:${state.showRomaji?'var(--teal)':'var(--muted)'};border-radius:20px;padding:5px 13px;font-size:12px;font-weight:700">🔤 Romaji</button>
+    <button onclick="revealAll()" style="background:var(--bg3);border:1px solid var(--border);color:var(--muted);border-radius:20px;padding:5px 13px;font-size:12px;font-weight:700">👁 Ver traducciones</button>
+  </div>`;
+
+  // Content
+  let inExSection = false;
+  for(const item of l.content) {
+    if(item.type === 'section') {
+      html += `<div class="point-head">${item.text}</div>`;
+      inExSection = false;
+    } else if(item.type === 'grammar_box') {
+      html += renderGrammarBox(item.text);
+    } else if(item.type === 'table') {
+      html += renderTable(item.rows);
+    } else if(item.type === 'example') {
+      if(!inExSection) {
+        html += `<div class="d-section-head">Ejemplos — toca 🔊 para escuchar, toca la traducción para revelar</div>`;
+        inExSection = true;
+      }
+      html += renderExample(item, true);
+    } else if(item.type === 'note') {
+      html += `<div class="note">${item.text}</div>`;
+    }
+  }
+
+  html += `<button class="done-btn ${done?'unmark':'mark'}" onclick="toggleDone(${num})">
+    ${done?'↩ Marcar como pendiente':'✓ Marcar como completada'}
+  </button>`;
+
+  document.getElementById('detail-content').innerHTML = html;
+  document.getElementById('s-detail').scrollTop = 0;
+}
+
+function renderGrammarBox(text) {
+  const lines = text.split('\n');
+  const title = lines[0].startsWith('📌') ? lines[0] : '';
+  const body = title ? lines.slice(1).join('\n') : text;
+  return `<div class="gbox">${title?`<div class="gbox-title">${title}</div>`:''}${esc(body)}</div>`;
+}
+
+function renderTable(rows) {
+  if(!rows || !rows.length) return '';
+  const header = rows[0];
+  const body = rows.slice(1);
+  return `<div class="gtable-wrap"><table>
+    <thead><tr>${header.map(h=>`<th>${esc(h)}</th>`).join('')}</tr></thead>
+    <tbody>${body.map(row=>`<tr>${row.map(c=>`<td>${esc(c)}</td>`).join('')}</tr>`).join('')}</tbody>
+  </table></div>`;
+}
+
+function renderExample(item, hidden=true, idx='') {
+  const showF = state.showFurigana && item.furigana;
+  const showR = state.showRomaji && item.romaji;
+  const btnId = `ab-${idx || Math.random().toString(36).slice(2)}`;
+  const esId = `es-${idx || Math.random().toString(36).slice(2)}`;
+  return `<div class="ex-card">
+    <div class="ex-top">
+      <div class="ex-text">
+        <div class="ex-jp">${item.jp}</div>
+        ${showF?`<div class="ex-furigana" id="furi-${esId}">【${item.furigana}】</div>`:''}
+        ${showR&&item.romaji?`<div class="ex-romaji" id="roma-${esId}">${item.romaji}</div>`:''}
+        <div class="ex-es ${hidden?'hidden':''}" id="${esId}" onclick="reveal(this)" data-es="${esc(item.es)}">${item.es}</div>
+        ${hidden?`<div class="reveal-hint" id="hint-${esId}">Toca para ver</div>`:''}
+      </div>
+      <button class="audio-btn" id="${btnId}" onclick="speakJP(${JSON.stringify(item.jp)}, this)">🔊</button>
+    </div>
+  </div>`;
+}
+
+function esc(s){ return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+
+function reveal(el) {
+  if(!el.classList.contains('hidden')) return;
+  el.classList.remove('hidden');
+  const hint = document.getElementById('hint-'+el.id);
+  if(hint) hint.style.display='none';
+}
+
+function revealAll() {
+  document.querySelectorAll('.ex-es.hidden').forEach(el=>{
+    el.classList.remove('hidden');
+    const hint = document.getElementById('hint-'+el.id);
+    if(hint) hint.style.display='none';
+  });
+}
+
+function toggleFurigana() {
+  state.showFurigana = !state.showFurigana;
+  save();
+  if(currentLesson) openLesson(currentLesson);
+}
+function toggleRomaji() {
+  state.showRomaji = !state.showRomaji;
+  save();
+  if(currentLesson) openLesson(currentLesson);
+}
+
+function toggleDone(num) {
+  state.done[num] = !state.done[num];
+  save();
+  openLesson(num);
+}
+
+function toggleFav() {
+  if(!currentLesson) return;
+  state.favs[currentLesson] = !state.favs[currentLesson];
+  document.getElementById('fav-btn').textContent = state.favs[currentLesson]?'⭐':'☆';
+  save();
+}
+
+// ══════════════════════════════════════════════════════════════
+// FLASHCARDS
+// ══════════════════════════════════════════════════════════════
+function startFlash(mode) {
+  if(mode) fc.mode = mode;
+  // Build pool from all examples
+  let pool = [];
+  LESSONS.forEach(l=>l.content.forEach(c=>{
+    if(c.type==='example' && c.jp && c.es) pool.push({...c, lessonNum:l.num});
+  }));
+  pool = pool.sort(()=>Math.random()-.5);
+  fc = { pool, idx:0, flipped:false, mode: fc.mode||'jp-es' };
+  renderFlash();
+}
+
+function renderFlash() {
+  const total = fc.pool.length;
+  if(!total) {
+    document.getElementById('flash-content').innerHTML=`<div class="empty"><div class="ei">📭</div><p>Sin ejemplos</p></div>`;
+    return;
+  }
+  const item = fc.pool[fc.idx];
+  const pct = ((fc.idx)/total*100).toFixed(0);
+  const isJpFront = fc.mode==='jp-es';
+  const front_content = isJpFront
+    ? `<div class="cf-label">Japonés → Español</div>
+       <div class="cf-jp">${item.jp}</div>
+       ${state.showFurigana&&item.furigana?`<div class="cf-furi">【${item.furigana}】</div>`:''}
+       ${state.showRomaji&&item.romaji?`<div class="cf-roma">${item.romaji}</div>`:''}
+       <div class="cf-tap">Toca para ver la traducción</div>`
+    : `<div class="cf-label">Español → Japonés</div>
+       <div class="cf-es" style="font-size:20px;color:var(--white)">${item.es}</div>
+       <div class="cf-tap">Toca para ver en japonés</div>`;
+  const back_content = isJpFront
+    ? `<div class="cf-label">Traducción</div><div class="cf-es">${item.es}</div>
+       <div style="font-size:11px;color:var(--muted);margin-top:5px">L${item.lessonNum}</div>`
+    : `<div class="cf-label">Japonés</div>
+       <div class="cf-jp">${item.jp}</div>
+       ${state.showFurigana&&item.furigana?`<div class="cf-furi">【${item.furigana}】</div>`:''}
+       ${state.showRomaji&&item.romaji?`<div class="cf-roma">${item.romaji}</div>`:''}`;
+
+  document.getElementById('flash-content').innerHTML = `
+    <div class="fc-top">
+      <span class="fc-counter">${fc.idx+1} / ${total}</span>
+      <button class="fc-mode-btn" onclick="startFlash(fc.mode==='jp-es'?'es-jp':'jp-es')">
+        ${fc.mode==='jp-es'?'JP → ES':'ES → JP'}
+      </button>
+    </div>
+    <div class="fc-progress"><div class="fc-fill" style="width:${pct}%"></div></div>
+
+    <div class="card-scene" onclick="flipCard()">
+      <div class="card-3d ${fc.flipped?'flipped':''}" id="card3d">
+        <div class="card-face card-front">${front_content}</div>
+        <div class="card-face card-back">${back_content}</div>
+      </div>
+    </div>
+
+    <button class="fc-audio-btn" style="display:flex;align-items:center;gap:6px;align-self:center;margin-bottom:10px" onclick="speakJP(${JSON.stringify(item.jp)}, this)">
+      🔊 Escuchar pronunciación
+    </button>
+
+    <div class="fc-btns">
+      <button class="fc-btn prev" onclick="fcNav(-1)">← Anterior</button>
+      <button class="fc-btn flip" onclick="flipCard()">↻ Girar</button>
+      <button class="fc-btn next" onclick="fcNav(1)">Siguiente →</button>
+    </div>
+    <div style="text-align:center;margin-top:10px;font-size:11px;color:var(--muted)">L${item.lessonNum} · ${state.showFurigana?'Furigana ON':'Furigana OFF'} · ${state.showRomaji?'Romaji ON':'Romaji OFF'}</div>
+  `;
+}
+
+function flipCard() {
+  fc.flipped = !fc.flipped;
+  const c = document.getElementById('card3d');
+  if(c) c.classList.toggle('flipped', fc.flipped);
+}
+
+function fcNav(dir) {
+  tts && tts.cancel();
+  fc.idx = (fc.idx + dir + fc.pool.length) % fc.pool.length;
+  fc.flipped = false;
+  renderFlash();
+}
+
+// ══════════════════════════════════════════════════════════════
+// QUIZ
+// ══════════════════════════════════════════════════════════════
+function startQuiz() {
+  let pool = [];
+  LESSONS.forEach(l=>l.content.forEach(c=>{
+    if(c.type==='example'&&c.jp&&c.es) pool.push({...c, lessonNum:l.num});
+  }));
+  pool = pool.sort(()=>Math.random()-.5).slice(0,20);
+  qz = { pool, idx:0, score:0, answered:false };
+  renderQuizQ();
+}
+
+function renderQuizQ() {
+  if(qz.idx >= qz.pool.length) { renderQuizResult(); return; }
+  const q = qz.pool[qz.idx];
+  const pct = (qz.idx/qz.pool.length*100).toFixed(0);
+  const others = qz.pool.map(p=>p.es).filter(e=>e!==q.es);
+  const wrongs = others.sort(()=>Math.random()-.5).slice(0,3);
+  const opts = [q.es,...wrongs].sort(()=>Math.random()-.5);
+  const qid = 'q'+qz.idx;
+
+  document.getElementById('quiz-content').innerHTML = `
+    <div class="qz-top">
+      <span class="qz-ctr">Pregunta ${qz.idx+1}/${qz.pool.length}</span>
+      <span class="qz-score">✨ ${qz.score} pts</span>
+    </div>
+    <div class="qz-bar"><div class="qz-fill" style="width:${pct}%"></div></div>
+    <div class="qz-card">
+      <div class="qz-jp">${q.jp}</div>
+      ${state.showFurigana&&q.furigana?`<div class="qz-furi">【${q.furigana}】</div>`:''}
+      ${state.showRomaji&&q.romaji?`<div class="qz-roma">${q.romaji}</div>`:''}
+      <div class="qz-ltag">Lección ${q.lessonNum}</div>
+      <button class="qz-audio" onclick="speakJP(${JSON.stringify(q.jp)},this)">🔊 Escuchar</button>
+    </div>
+    <div class="qz-opts">
+      ${opts.map(o=>`<button class="qopt" data-ans="${encodeURIComponent(o)}" data-correct="${encodeURIComponent(q.es)}"
+        onclick="answerQ(this)">${o}</button>`).join('')}
+    </div>
+    <div class="qz-fb" id="qz-fb"></div>
+    <button class="qz-next" id="qz-next" onclick="nextQ()">Siguiente →</button>
+  `;
+}
+
+function answerQ(btn) {
+  if(qz.answered) return;
+  qz.answered = true;
+  const ans = decodeURIComponent(btn.dataset.ans);
+  const correct = decodeURIComponent(btn.dataset.correct);
+  const ok = ans === correct;
+  if(ok) qz.score++;
+  document.querySelectorAll('.qopt').forEach(b=>{
+    b.disabled = true;
+    const ba = decodeURIComponent(b.dataset.ans);
+    if(ba===correct) b.classList.add('ok');
+    else if(b===btn && !ok) b.classList.add('ko');
+  });
+  const fb = document.getElementById('qz-fb');
+  fb.textContent = ok ? '✓ ¡Correcto!' : `✗ Era: ${correct}`;
+  fb.className = 'qz-fb show '+(ok?'ok':'ko');
+  document.getElementById('qz-next').classList.add('show');
+}
+
+function nextQ() {
+  qz.idx++; qz.answered=false; renderQuizQ();
+}
+
+function renderQuizResult() {
+  const pct = Math.round(qz.score/qz.pool.length*100);
+  const emoji = pct>=80?'🏆':pct>=60?'👍':pct>=40?'📚':'💪';
+  const msg = pct>=80?'¡Excelente dominio!':pct>=60?'¡Buen trabajo!':pct>=40?'Sigue practicando':'¡Más estudio!';
+  state.quizScores = [...(state.quizScores||[]).slice(-9), pct]; save();
+  document.getElementById('quiz-content').innerHTML = `
+    <div class="qz-result">
+      <div class="qr-emoji">${emoji}</div>
+      <div class="qr-score">${qz.score}/${qz.pool.length}</div>
+      <div class="qr-label">${msg} · ${pct}% acierto</div>
+      <button class="qr-restart" onclick="startQuiz()">🔄 Jugar de nuevo</button>
+    </div>`;
+}
+
+// ══════════════════════════════════════════════════════════════
+// PROGRESS
+// ══════════════════════════════════════════════════════════════
+function renderProgress() {
+  const total = LESSONS.length;
+  const done = Object.values(state.done).filter(Boolean).length;
+  const favs = Object.values(state.favs).filter(Boolean).length;
+  const pct = total ? Math.round(done/total*100) : 0;
+  const avgQ = state.quizScores?.length ? Math.round(state.quizScores.reduce((a,b)=>a+b,0)/state.quizScores.length) : 0;
+  const n5d = LESSONS.filter(l=>l.num<=25&&state.done[l.num]).length;
+  const n4d = LESSONS.filter(l=>l.num>25&&l.num<=40&&state.done[l.num]).length;
+  const n3d = LESSONS.filter(l=>l.num>40&&state.done[l.num]).length;
+
+  document.getElementById('prog-content').innerHTML = `
+    <div class="prog-hero">
+      <div class="prog-pct">${pct}%</div>
+      <div class="prog-lbl">${done} de ${total} lecciones completadas</div>
+      <div class="prog-bar-wrap"><div class="prog-bar" style="width:${pct}%"></div></div>
+    </div>
+    <div class="streak">
+      <span style="font-size:26px">🔥</span>
+      <div><div class="streak-num">${state.streak||1} día${state.streak!==1?'s':''}</div><div class="streak-lbl">Racha de estudio</div></div>
+    </div>
+    <div class="stats">
+      <div class="stat"><div class="stat-n" style="color:var(--green)">${done}</div><div class="stat-l">Completadas</div></div>
+      <div class="stat"><div class="stat-n" style="color:var(--gold)">${favs}</div><div class="stat-l">Favoritas ⭐</div></div>
+      <div class="stat"><div class="stat-n" style="color:var(--teal)">${avgQ}%</div><div class="stat-l">Promedio Quiz</div></div>
+      <div class="stat"><div class="stat-n" style="color:var(--purple)">${state.quizScores?.length||0}</div><div class="stat-l">Quizzes</div></div>
+    </div>
+    <div class="d-section-head">Progreso por nivel</div>
+    ${lvlBar('N5 — Básico (L1–25)', n5d, 25, 'var(--green)')}
+    ${lvlBar('N4 — Intermedio (L26–40)', n4d, 15, 'var(--teal)')}
+    ${lvlBar('N3 — Avanzado (L41–50)', n3d, 10, 'var(--purple)')}
+    ${state.quizScores?.length ? `
+    <div class="d-section-head" style="margin-top:12px">Últimas puntuaciones Quiz</div>
+    <div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px">
+      ${[...state.quizScores].reverse().map(s=>`
+        <div style="background:var(--card);border-radius:8px;padding:5px 10px;border:1px solid var(--border);font-weight:700;font-size:13px;color:${s>=80?'var(--green)':s>=60?'var(--gold)':'var(--red)'}">${s}%</div>
+      `).join('')}
+    </div>` : ''}
+    <div class="d-section-head">Opciones de visualización</div>
+    <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px">
+      <button onclick="state.showFurigana=!state.showFurigana;save();renderProgress()" style="background:${state.showFurigana?'rgba(162,155,254,.2)':'var(--card)'};border:1px solid ${state.showFurigana?'var(--purple)':'var(--border)'};color:${state.showFurigana?'var(--purple)':'var(--muted)'};border-radius:20px;padding:6px 14px;font-size:12px;font-weight:700">🈺 Furigana ${state.showFurigana?'ON':'OFF'}</button>
+      <button onclick="state.showRomaji=!state.showRomaji;save();renderProgress()" style="background:${state.showRomaji?'rgba(0,206,201,.2)':'var(--card)'};border:1px solid ${state.showRomaji?'var(--teal)':'var(--border)'};color:${state.showRomaji?'var(--teal)':'var(--muted)'};border-radius:20px;padding:6px 14px;font-size:12px;font-weight:700">🔤 Romaji ${state.showRomaji?'ON':'OFF'}</button>
+    </div>
+    <button class="reset-btn" onclick="confirmReset()">🗑️ Reiniciar todo el progreso</button>
+  `;
+}
+
+function lvlBar(label, done, total, color) {
+  const p = Math.round(done/total*100);
+  return `<div class="lvl-bar">
+    <div class="lvl-top"><span class="lvl-name">${label}</span><span class="lvl-cnt">${done}/${total}</span></div>
+    <div class="lvl-track"><div class="lvl-fill" style="width:${p}%;background:${color}"></div></div>
+  </div>`;
+}
+
+function confirmReset() {
+  if(confirm('¿Reiniciar todo el progreso? No se puede deshacer.')) {
+    state = { done:{}, favs:{}, streak:1, lastStudied:new Date().toDateString(), quizScores:[], showRomaji:true, showFurigana:true };
+    save(); renderProgress(); renderLessons();
+  }
+}
+
+// ══════════════════════════════════════════════════════════════
+// INIT
+// ══════════════════════════════════════════════════════════════
+init();
+</script>
+</body>
+</html>

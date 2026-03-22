@@ -1,0 +1,3772 @@
+[
+  {
+    "num": 1,
+    "title": "わたしは〜です / じゃありません",
+    "description": "La lección 1 introduce la estructura fundamental del japonés: [sujeto + は + predicado + です]. です equivale a 'ser/estar'. じゃ(では)ありません es la forma negativa.",
+    "content": [
+      {
+        "type": "grammar_box",
+        "text": "📌 わたしは〜です — Presentarse\nEstructura: わたし は [nombre/profesión] です。 / 〜じゃ(では)ありません。\nは (wa) es la partícula de tema. の conecta sustantivos indicando relación o posesión. だれ = ¿quién? (informal) / どなた = ¿quién? (formal). 〜じん = nacionalidad (ej: にほんじん = japonés)."
+      },
+      {
+        "type": "section",
+        "text": "① Afirmación: 〜です"
+      },
+      {
+        "type": "example",
+        "jp": "わたしはマイク・ミラーです。",
+        "furigana": "わたし は まいく みらー です",
+        "romaji": "",
+        "es": "Yo soy Mike Miller."
+      },
+      {
+        "type": "example",
+        "jp": "わたしはかいしゃいんです。",
+        "furigana": "わたし は かいしゃいん です",
+        "romaji": "",
+        "es": "Soy empleado de empresa."
+      },
+      {
+        "type": "grammar_box",
+        "text": "わたしはIMCのしゃいんです。\n【わたし は IMC の しゃいん です】\nWatashi wa IMC no shain desu.\n→ Soy empleado de IMC. (の = partícula posesiva)"
+      },
+      {
+        "type": "section",
+        "text": "② Negación: じゃ(では)ありません"
+      },
+      {
+        "type": "example",
+        "jp": "わたしはカール・シュミットじゃありません。",
+        "furigana": "わたし は かーる しゅみっと じゃ ありません",
+        "romaji": "",
+        "es": "Yo no soy Karl Schmidt."
+      },
+      {
+        "type": "example",
+        "jp": "イーさんはがくせいじゃありません。",
+        "furigana": "いーさん は がくせい じゃ ありません",
+        "romaji": "",
+        "es": "El señor Lee no es estudiante."
+      },
+      {
+        "type": "section",
+        "text": "③ Preguntas: ですか / だれ / なんさい"
+      },
+      {
+        "type": "example",
+        "jp": "あの人はだれですか。",
+        "furigana": "あの ひと は だれ ですか",
+        "romaji": "",
+        "es": "¿Quién es esa persona?"
+      },
+      {
+        "type": "example",
+        "jp": "テレザちゃんはなんさいですか。",
+        "furigana": "てれざちゃん は なんさい ですか",
+        "romaji": "",
+        "es": "¿Cuántos años tiene Tereza?"
+      }
+    ]
+  },
+  {
+    "num": 2,
+    "title": "これ / それ / あれ / この〜 (Demostrativos de objetos)",
+    "description": "Se introducen los demostrativos para objetos y la partícula の para indicar posesión o relación entre sustantivos.",
+    "content": [
+      {
+        "type": "grammar_box",
+        "text": "📌 Demostrativos de objetos\nEstructura: これ = esto (cerca de mí) / それ = eso (cerca de ti) / あれ = aquello (lejos de ambos)\nこの/その/あの + sustantivo = este/ese/aquel + sustantivo\nどれ = ¿cuál? / この/その/あの → どの + sustantivo\nこれ/それ/あれ son pronombres solos. この/その/あの siempre van con un sustantivo. の indica relación/posesión: [A]の[B] = el B de A."
+      },
+      {
+        "type": "section",
+        "text": "① これ / それ / あれ"
+      },
+      {
+        "type": "example",
+        "jp": "これはつくえです。",
+        "furigana": "これ は つくえ です",
+        "romaji": "",
+        "es": "Esto es un escritorio."
+      },
+      {
+        "type": "example",
+        "jp": "あれはなんですか。",
+        "furigana": "あれ は なん ですか",
+        "romaji": "",
+        "es": "¿Qué es aquello?"
+      },
+      {
+        "type": "section",
+        "text": "② の — posesión / relación"
+      },
+      {
+        "type": "example",
+        "jp": "これはにほんごのほんです。",
+        "furigana": "これ は にほんご の ほん です",
+        "romaji": "",
+        "es": "Este es un libro de japonés."
+      },
+      {
+        "type": "example",
+        "jp": "あれはわたしのかばんです。",
+        "furigana": "あれ は わたし の かばん です",
+        "romaji": "",
+        "es": "Aquello es mi bolsa."
+      },
+      {
+        "type": "grammar_box",
+        "text": "このてちょうはわたしのです。\n【この てちょう は わたし の です】\nKono techō wa watashi no desu.\n→ Esta agenda es mía. (の solo = 'el/la mío/a')"
+      }
+    ]
+  },
+  {
+    "num": 3,
+    "title": "ここ / そこ / あそこ / こちら (Demostrativos de lugar)",
+    "description": "Se aprende a preguntar y decir dónde están las cosas, los precios y los demostrativos de lugar y dirección.",
+    "content": [
+      {
+        "type": "grammar_box",
+        "text": "📌 Demostrativos de lugar y dirección\nEstructura: ここ/そこ/あそこ = aquí/ahí/allá  /  こちら/そちら/あちら = forma más educada\nどこ = ¿dónde? / どちら = ¿dónde? (educado) / いくら = ¿cuánto cuesta?\nこちら/そちら/あちら también sirven como forma educada de これ/それ/あれ cuando se habla de personas o direcciones."
+      },
+      {
+        "type": "section",
+        "text": "① ここ / そこ / あそこ — lugares"
+      },
+      {
+        "type": "example",
+        "jp": "ここはきょうしつです。",
+        "furigana": "ここ は きょうしつ です",
+        "romaji": "",
+        "es": "Aquí es el aula."
+      },
+      {
+        "type": "example",
+        "jp": "うけつけはどこですか。",
+        "furigana": "うけつけ は どこ ですか",
+        "romaji": "",
+        "es": "¿Dónde está la recepción?"
+      },
+      {
+        "type": "example",
+        "jp": "エレベーターはあちらです。",
+        "furigana": "えれべーたー は あちら です",
+        "romaji": "",
+        "es": "El ascensor está por allá (forma educada)."
+      },
+      {
+        "type": "example",
+        "jp": "じどうはんばいきは２かいです。",
+        "furigana": "じどうはんばいき は にかい です",
+        "romaji": "",
+        "es": "La máquina expendedora está en el 2.º piso."
+      },
+      {
+        "type": "section",
+        "text": "② いくら — precios"
+      },
+      {
+        "type": "example",
+        "jp": "このネクタイはいくらですか。",
+        "furigana": "この ねくたい は いくら ですか",
+        "romaji": "",
+        "es": "¿Cuánto cuesta esta corbata?"
+      },
+      {
+        "type": "example",
+        "jp": "1,500えんです。",
+        "furigana": "せんごひゃくえん です",
+        "romaji": "",
+        "es": "Son 1.500 yenes."
+      }
+    ]
+  },
+  {
+    "num": 4,
+    "title": "時間 (Horas) / Verbos en forma ます",
+    "description": "Se aprende a expresar la hora, días de la semana y a conjugar verbos en la forma polite (ます形).",
+    "content": [
+      {
+        "type": "grammar_box",
+        "text": "📌 Horas, días y verbos ます\nEstructura: 〜じ (hora) / 〜ふん/ぷん (minutos) / 〜じはん (y media)\nから (desde) + まで (hasta) / に (partícula de tiempo específico)\nVerbo-ます (presente/futuro) / -ません (neg.) / -ました (pasado) / -ませんでした (pasado neg.)\nなんじ = ¿qué hora? / なんようび = ¿qué día? La partícula に se usa con horas, días y fechas específicas."
+      },
+      {
+        "type": "section",
+        "text": "① La hora y los horarios"
+      },
+      {
+        "type": "example",
+        "jp": "いまは４じ５ふんです。",
+        "furigana": "いま は よじ ごふん です",
+        "romaji": "",
+        "es": "Ahora son las 4 y 5 minutos."
+      },
+      {
+        "type": "example",
+        "jp": "ひるやすみは12じから１じまでです。",
+        "furigana": "ひるやすみ は じゅうにじ から いちじ まで です",
+        "romaji": "",
+        "es": "La pausa del mediodía es de las 12 a la 1."
+      },
+      {
+        "type": "section",
+        "text": "② Conjugación de verbos ます"
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Forma ます",
+            "Negativo ません",
+            "Pasado ました",
+            "Pasado neg."
+          ],
+          [
+            "ねます (dormir)",
+            "ねません",
+            "ねました",
+            "ねませんでした"
+          ],
+          [
+            "やすみます (descansar)",
+            "やすみません",
+            "やすみました",
+            "やすみませんでした"
+          ],
+          [
+            "はたらきます (trabajar)",
+            "はたらきません",
+            "はたらきました",
+            "はたらきませんでした"
+          ]
+        ]
+      },
+      {
+        "type": "section",
+        "text": "③ Ejemplos"
+      },
+      {
+        "type": "example",
+        "jp": "わたしは毎朝６じに起きます。",
+        "furigana": "わたし は まいあさ ろくじ に おきます",
+        "romaji": "",
+        "es": "Me levanto a las 6 cada mañana."
+      },
+      {
+        "type": "example",
+        "jp": "わたしは９じから５じまではたらきます。",
+        "furigana": "わたし は くじ から ごじ まで はたらきます",
+        "romaji": "",
+        "es": "Trabajo de 9 a 5."
+      },
+      {
+        "type": "example",
+        "jp": "きのう勉強しました。",
+        "furigana": "きのう べんきょう しました",
+        "romaji": "",
+        "es": "Ayer estudié."
+      }
+    ]
+  },
+  {
+    "num": 5,
+    "title": "Partículas へ / で / と / に (Movimiento)",
+    "description": "Se aprenden las partículas esenciales para indicar dirección, medio de transporte, compañía y fechas.",
+    "content": [
+      {
+        "type": "grammar_box",
+        "text": "📌 Partículas de movimiento y contexto\nEstructura: へ (e) = dirección (a, hacia)  /  で (de) = medio de transporte\nと (to) = compañía (con)  /  に (ni) = momento temporal específico\nVerbos: いきます (ir) / きます (venir) / かえります (volver)\nへ y に pueden intercambiarse para destinos, pero に también indica el punto exacto de llegada. で indica el vehículo o instrumento utilizado."
+      },
+      {
+        "type": "section",
+        "text": "① へ — dirección de movimiento"
+      },
+      {
+        "type": "example",
+        "jp": "わたしはスーパーへ行きます。",
+        "furigana": "わたし は すーぱー へ いきます",
+        "romaji": "",
+        "es": "Voy al supermercado."
+      },
+      {
+        "type": "example",
+        "jp": "わたしはとうきょうへ行きました。",
+        "furigana": "わたし は とうきょう へ いきました",
+        "romaji": "",
+        "es": "Fui a Tokio."
+      },
+      {
+        "type": "section",
+        "text": "② で — medio de transporte"
+      },
+      {
+        "type": "example",
+        "jp": "わたしはバスで会社へ行きます。",
+        "furigana": "わたし は ばす で かいしゃ へ いきます",
+        "romaji": "",
+        "es": "Voy a la empresa en autobús."
+      },
+      {
+        "type": "example",
+        "jp": "ちかてつで行きます。",
+        "furigana": "ちかてつ で いきます",
+        "romaji": "",
+        "es": "Voy en metro."
+      },
+      {
+        "type": "section",
+        "text": "③ と — compañía / に — fecha o tiempo"
+      },
+      {
+        "type": "example",
+        "jp": "わたしはミラーさんと日本へ来ました。",
+        "furigana": "わたし は みらーさん と にほん へ きました",
+        "romaji": "",
+        "es": "Vine a Japón con el señor Miller."
+      },
+      {
+        "type": "example",
+        "jp": "わたしは７がつ15にちに国へ帰ります。",
+        "furigana": "わたし は しちがつ じゅうごにち に くに へ かえります",
+        "romaji": "",
+        "es": "Vuelvo a mi país el 15 de julio."
+      }
+    ]
+  },
+  {
+    "num": 6,
+    "title": "Partícula を / で de lugar / Invitaciones",
+    "description": "Se introduce を para el objeto directo, で para el lugar de la acción, y las formas de invitar y proponer acciones conjuntas.",
+    "content": [
+      {
+        "type": "grammar_box",
+        "text": "📌 Partículas を y で / Invitaciones\nEstructura: を (o) = objeto directo de la acción\nで (de) = lugar donde ocurre la acción\n〜ませんか = ¿No quieres...? (invitación cortés)\n〜ましょう = ¡Vamos a...! (propuesta decidida)\nませんか es más suave y deja libertad al interlocutor. ましょう implica decisión conjunta ya tomada."
+      },
+      {
+        "type": "section",
+        "text": "① を — objeto directo"
+      },
+      {
+        "type": "example",
+        "jp": "わたしはパンを食べます。",
+        "furigana": "わたし は ぱん を たべます",
+        "romaji": "",
+        "es": "Como pan."
+      },
+      {
+        "type": "example",
+        "jp": "わたしはサッカーをします。",
+        "furigana": "わたし は さっかー を します",
+        "romaji": "",
+        "es": "Juego al fútbol."
+      },
+      {
+        "type": "example",
+        "jp": "わたしはデパートで紅茶を買いました。",
+        "furigana": "わたし は でぱーと で こうちゃ を かいました",
+        "romaji": "",
+        "es": "Compré té negro en los grandes almacenes."
+      },
+      {
+        "type": "section",
+        "text": "② Invitaciones: ませんか / ましょう"
+      },
+      {
+        "type": "example",
+        "jp": "いっしょに京都へ行きませんか。",
+        "furigana": "いっしょに きょうと へ いきませんか",
+        "romaji": "",
+        "es": "¿No quieres ir a Kioto juntos?"
+      },
+      {
+        "type": "example",
+        "jp": "あそこで休みましょう。",
+        "furigana": "あそこ で やすみましょう",
+        "romaji": "",
+        "es": "¡Descansemos allí!"
+      }
+    ]
+  },
+  {
+    "num": 7,
+    "title": "で instrumental / に receptor / もう〜ました",
+    "description": "Se amplía の uso de で como idioma o instrumento, に para el destinatario de una acción, y もう/まだ para 'ya' y 'todavía no'.",
+    "content": [
+      {
+        "type": "grammar_box",
+        "text": "📌 で instrumental / に destinatario / もう\nEstructura: で = con qué idioma o herramienta se hace algo\nに = a quién va dirigida la acción (con あげます/もらいます)\nもう + verbo-ました = ya (lo hice)  /  まだです = todavía no\nあげます = dar (yo a otro). もらいます = recibir (yo de otro). くれます = dar (otro a mí). Estos verbos tienen perspectiva fija."
+      },
+      {
+        "type": "section",
+        "text": "① で — idioma o instrumento"
+      },
+      {
+        "type": "example",
+        "jp": "わたしははしでごはんを食べます。",
+        "furigana": "わたし は はし で ごはん を たべます",
+        "romaji": "",
+        "es": "Como arroz con palillos."
+      },
+      {
+        "type": "example",
+        "jp": "にほんごでレポートを書きます。",
+        "furigana": "にほんご で れぽーと を かきます",
+        "romaji": "",
+        "es": "Escribo el informe en japonés."
+      },
+      {
+        "type": "section",
+        "text": "② に — destinatario / あげます・もらいます"
+      },
+      {
+        "type": "example",
+        "jp": "わたしはさとうさんにチョコレートをあげます。",
+        "furigana": "わたし は さとうさん に ちょこれーと を あげます",
+        "romaji": "",
+        "es": "Le doy chocolate al señor Satō."
+      },
+      {
+        "type": "example",
+        "jp": "わたしはワットさんに本をもらいました。",
+        "furigana": "わたし は わっとさん に ほん を もらいました",
+        "romaji": "",
+        "es": "Recibí un libro del señor Watt."
+      },
+      {
+        "type": "section",
+        "text": "③ もう〜ました / まだです"
+      },
+      {
+        "type": "example",
+        "jp": "もう荷物をおくりましたか。",
+        "furigana": "もう にもつ を おくりましたか",
+        "romaji": "",
+        "es": "¿Ya enviaste el equipaje?"
+      },
+      {
+        "type": "example",
+        "jp": "はい、もうおくりました。/ いいえ、まだです。",
+        "furigana": "はい もう おくりました / いいえ まだ です",
+        "romaji": "",
+        "es": "Sí, ya lo envié. / No, todavía no."
+      }
+    ]
+  },
+  {
+    "num": 8,
+    "title": "Adjetivos-い y Adjetivos-な",
+    "description": "El japonés tiene dos tipos de adjetivos con conjugaciones distintas. Los adjetivos-い terminan en い; los adjetivos-な se comportan como sustantivos.",
+    "content": [
+      {
+        "type": "grammar_box",
+        "text": "📌 Dos tipos de adjetivos\nEstructura: Adj-い: い→くない (neg.) / い→かった (pasado) / い→くなかった (pasado neg.)\nAdj-な: + じゃありません (neg.) / + でした (pasado) / + じゃありませんでした (pasado neg.)\nAdj-な + な + sustantivo = adj modifica al sustantivo\n⚠️ いい (bueno) es IRREGULAR: よくない (no es bueno) / よかった (era bueno) / よくなかった (no era bueno)."
+      },
+      {
+        "type": "section",
+        "text": "① Conjugación adj-な"
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Presente +",
+            "Presente −",
+            "Pasado +",
+            "Pasado −"
+          ],
+          [
+            "きれいです",
+            "きれいじゃない",
+            "きれいでした",
+            "きれいじゃなかった"
+          ],
+          [
+            "げんきです",
+            "げんきじゃない",
+            "げんきでした",
+            "げんきじゃなかった"
+          ],
+          [
+            "にぎやかです",
+            "にぎやかじゃない",
+            "にぎやかでした",
+            "にぎやかじゃなかった"
+          ]
+        ]
+      },
+      {
+        "type": "section",
+        "text": "② Conjugación adj-い"
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Presente +",
+            "Presente −",
+            "Pasado +",
+            "Pasado −"
+          ],
+          [
+            "たかいです",
+            "たかくないです",
+            "たかかったです",
+            "たかくなかったです"
+          ],
+          [
+            "おいしいです",
+            "おいしくないです",
+            "おいしかったです",
+            "おいしくなかったです"
+          ],
+          [
+            "いいです ⚠️",
+            "よくないです ⚠️",
+            "よかったです ⚠️",
+            "よくなかったです ⚠️"
+          ]
+        ]
+      },
+      {
+        "type": "section",
+        "text": "③ Ejemplos"
+      },
+      {
+        "type": "example",
+        "jp": "この町はきれいです。",
+        "furigana": "この まち は きれい です",
+        "romaji": "",
+        "es": "Esta ciudad es bonita. (adj-な sola)"
+      },
+      {
+        "type": "example",
+        "jp": "奈良はゆうめいなまちです。",
+        "furigana": "なら は ゆうめいな まち です",
+        "romaji": "",
+        "es": "Nara es una ciudad famosa. (adj-な + な + sust.)"
+      },
+      {
+        "type": "grammar_box",
+        "text": "奈良はどんなまちですか。\n【なら は どんな まち ですか】\nNara wa donna machi desu ka?\n→ ¿Qué tipo de ciudad es Nara? (どんな = ¿qué tipo?)"
+      }
+    ]
+  },
+  {
+    "num": 9,
+    "title": "Partícula が con gustos/habilidades / から (porque)",
+    "description": "Ciertos verbos y adjetivos de estado (gustar, ser bueno en, entender, tener) usan が en lugar de を. から expresa la razón.",
+    "content": [
+      {
+        "type": "grammar_box",
+        "text": "📌 が con verbos/adj de estado / から\nEstructura: [cosa] が + すきです/きらいです/じょうずです/へたです/わかります/あります\n[razón] + から、[resultado]\nEstos predicados describen estados del sujeto respecto a algo. La 'cosa' es el sujeto gramatical japonés. から = 'porque', equivale a 'ya que', 'puesto que'."
+      },
+      {
+        "type": "section",
+        "text": "① すきです / じょうずです / わかります"
+      },
+      {
+        "type": "example",
+        "jp": "わたしはえいがが好きです。",
+        "furigana": "わたし は えいが が すき です",
+        "romaji": "",
+        "es": "Me gustan las películas."
+      },
+      {
+        "type": "example",
+        "jp": "サントスさんはサッカーがじょうずです。",
+        "furigana": "さんとすさん は さっかー が じょうず です",
+        "romaji": "",
+        "es": "Santos es bueno jugando al fútbol."
+      },
+      {
+        "type": "example",
+        "jp": "わたしはひらがながわかります。",
+        "furigana": "わたし は ひらがな が わかります",
+        "romaji": "",
+        "es": "Entiendo el hiragana."
+      },
+      {
+        "type": "section",
+        "text": "② から — razón"
+      },
+      {
+        "type": "example",
+        "jp": "いそがしいですから、テレビを見ません。",
+        "furigana": "いそがしい です から、てれび を みません",
+        "romaji": "",
+        "es": "Como estoy ocupado, no veo la televisión."
+      },
+      {
+        "type": "example",
+        "jp": "じかんがありませんから、行きません。",
+        "furigana": "じかん が ありません から、いきません",
+        "romaji": "",
+        "es": "Como no tengo tiempo, no voy."
+      }
+    ]
+  },
+  {
+    "num": 10,
+    "title": "あります / います (Existencia y ubicación)",
+    "description": "Se aprende a expresar la existencia y ubicación de cosas y personas con あります (inanimados) e います (animados).",
+    "content": [
+      {
+        "type": "grammar_box",
+        "text": "📌 あります vs います\nEstructura: あります = hay/existe (cosas, plantas, eventos)\nいます = hay/está (personas, animales)\n[lugar] + に + [cosa/persona] + が + あります/います\nPara describir ubicación: [objeto] は [lugar] に あります/います. Palabras clave: となり (lado), なか (dentro), まえ (delante), うしろ (detrás), うえ (encima), した (debajo), みぎ (derecha), ひだり (izquierda)."
+      },
+      {
+        "type": "section",
+        "text": "① あります — existencia de cosas"
+      },
+      {
+        "type": "example",
+        "jp": "あそこにでんわがあります。",
+        "furigana": "あそこ に でんわ が あります",
+        "romaji": "",
+        "es": "Allá hay un teléfono."
+      },
+      {
+        "type": "example",
+        "jp": "スーパーのとなりに喫茶店があります。",
+        "furigana": "すーぱー の となり に きっさてん が あります",
+        "romaji": "",
+        "es": "Al lado del supermercado hay una cafetería."
+      },
+      {
+        "type": "section",
+        "text": "② います — existencia de personas/animales"
+      },
+      {
+        "type": "example",
+        "jp": "あそこにやまださんがいます。",
+        "furigana": "あそこ に やまださん が います",
+        "romaji": "",
+        "es": "Allá está la señora Yamada."
+      },
+      {
+        "type": "example",
+        "jp": "ミラーさんはエレベーターのまえにいます。",
+        "furigana": "みらーさん は えれべーたー の まえ に います",
+        "romaji": "",
+        "es": "El señor Miller está delante del ascensor."
+      }
+    ]
+  },
+  {
+    "num": 11,
+    "title": "Contadores (助数詞・じょすうし) / どのくらい",
+    "description": "En japonés, los números se combinan con contadores específicos según el tipo de objeto. どのくらい pregunta duración o cantidad aproximada.",
+    "content": [
+      {
+        "type": "grammar_box",
+        "text": "📌 Contadores principales\nEstructura: 〜まい = objetos planos (papel, ropa, sellos)\n〜にん = personas (ひとり=1, ふたり=2, 〜にん=3+)\n〜かい = veces  /  ひとつ〜とお = conteo nativo japonés (1-10)\nかかります = tardar / costar (tiempo o dinero)\nEl conteo nativo japonés (ひとつ、ふたつ、みっつ...) va hasta 10 y se usa para objetos sin contador específico."
+      },
+      {
+        "type": "section",
+        "text": "① Contadores en uso"
+      },
+      {
+        "type": "example",
+        "jp": "80円の切手を１まい買いました。",
+        "furigana": "はちじゅうえん の きって を いちまい かいました",
+        "romaji": "",
+        "es": "Compré 1 sello de 80 yenes."
+      },
+      {
+        "type": "example",
+        "jp": "このクラスに留学生が４にんいます。",
+        "furigana": "この くらす に りゅうがくせい が よにん います",
+        "romaji": "",
+        "es": "En esta clase hay 4 estudiantes de intercambio."
+      },
+      {
+        "type": "example",
+        "jp": "1しゅうかんに２かい映画を見ます。",
+        "furigana": "いっしゅうかん に にかい えいが を みます",
+        "romaji": "",
+        "es": "Veo películas 2 veces por semana."
+      },
+      {
+        "type": "section",
+        "text": "② どのくらいかかりますか — duración"
+      },
+      {
+        "type": "example",
+        "jp": "国から日本まで飛行機で12じかんかかります。",
+        "furigana": "くに から にほん まで ひこうき で じゅうにじかん かかります",
+        "romaji": "",
+        "es": "Desde mi país hasta Japón en avión tarda 12 horas."
+      }
+    ]
+  },
+  {
+    "num": 12,
+    "title": "Pasado de adjetivos / Comparaciones (より / ほうが / いちばん)",
+    "description": "Se completan las conjugaciones de los adjetivos en pasado y se aprende a establecer comparaciones entre dos o más elementos.",
+    "content": [
+      {
+        "type": "grammar_box",
+        "text": "📌 Comparaciones\nEstructura: [A] は [B] より [adj]です。→ A es más [adj] que B\n[A] と [B] と どちらが [adj]ですか。→ ¿Cuál de los dos es más [adj]?\n[grupo] で [A] が いちばん [adj]です。→ En [grupo], A es el más [adj] (superlativo)\nより = 'que' (elemento de comparación). ほうが = 'el más de dos'. いちばん = superlativo absoluto."
+      },
+      {
+        "type": "section",
+        "text": "① Pasado de adjetivos"
+      },
+      {
+        "type": "example",
+        "jp": "京都はきれいでした。",
+        "furigana": "きょうと は きれい でした",
+        "romaji": "",
+        "es": "Kioto era bonita. (pasado adj-な)"
+      },
+      {
+        "type": "example",
+        "jp": "さむかったです。",
+        "furigana": "さむかった です",
+        "romaji": "",
+        "es": "Hacía frío. (pasado adj-い)"
+      },
+      {
+        "type": "section",
+        "text": "② Comparaciones"
+      },
+      {
+        "type": "example",
+        "jp": "とうきょうはおおさかより大きいです。",
+        "furigana": "とうきょう は おおさか より おおきい です",
+        "romaji": "",
+        "es": "Tokio es más grande que Osaka."
+      },
+      {
+        "type": "example",
+        "jp": "サッカーとやきゅうとどちらがおもしろいですか。",
+        "furigana": "さっかー と やきゅう と どちら が おもしろい ですか",
+        "romaji": "",
+        "es": "¿Cuál es más interesante, el fútbol o el béisbol?"
+      },
+      {
+        "type": "example",
+        "jp": "スポーツでなにがいちばんおもしろいですか。",
+        "furigana": "すぽーつ で なに が いちばん おもしろい ですか",
+        "romaji": "",
+        "es": "¿Qué deporte es el más interesante? (superlativo)"
+      }
+    ]
+  },
+  {
+    "num": 13,
+    "title": "ほしいです / 〜たいです / 〜に行きます (Deseos)",
+    "description": "Se aprende a expresar deseos sobre objetos (ほしいです), deseos de realizar acciones (たいです) e ir a algún lugar con una finalidad (〜に行きます).",
+    "content": [
+      {
+        "type": "grammar_box",
+        "text": "📌 Expresar deseos y finalidad\nEstructura: [cosa] が ほしいです = quiero [cosa] (objeto)\n[verbo-ます stem] + たいです = quiero hacer [verbo] (acción)\n[verbo-ます stem] + に + 行きます/来ます/帰ります = ir a hacer algo\nほしい y たい se conjugan como adj-い. たいです → たくないです (no quiero). En preguntas sobre terceras personas es más natural usar たがっています."
+      },
+      {
+        "type": "section",
+        "text": "① ほしいです — desear objetos"
+      },
+      {
+        "type": "example",
+        "jp": "わたしはくるまがほしいです。",
+        "furigana": "わたし は くるま が ほしい です",
+        "romaji": "",
+        "es": "Quiero un coche."
+      },
+      {
+        "type": "section",
+        "text": "② たいです — desear hacer algo"
+      },
+      {
+        "type": "example",
+        "jp": "わたしはカメラをかいたいです。",
+        "furigana": "わたし は かめら を かいたい です",
+        "romaji": "",
+        "es": "Quiero comprar una cámara."
+      },
+      {
+        "type": "grammar_box",
+        "text": "けっこんしたくないです。\n【けっこん したくない です】\nKekkon shitakunai desu.\n→ No quiero casarme. (たくない = no quiero)"
+      },
+      {
+        "type": "section",
+        "text": "③ 〜に行きます — ir a hacer algo (finalidad)"
+      },
+      {
+        "type": "example",
+        "jp": "わたしは京都へ遊びに行きます。",
+        "furigana": "わたし は きょうと へ あそびに いきます",
+        "romaji": "",
+        "es": "Voy a Kioto de paseo / a divertirme."
+      },
+      {
+        "type": "example",
+        "jp": "日本料理を食べに行きます。",
+        "furigana": "にほんりょうり を たべに いきます",
+        "romaji": "",
+        "es": "Voy a comer comida japonesa."
+      }
+    ]
+  },
+  {
+    "num": 14,
+    "title": "Forma て (て形) — Usos básicos",
+    "description": "La forma て es una de las más importantes del japonés. Se usa para peticiones, permiso, acciones en progreso y conectar acciones.",
+    "content": [
+      {
+        "type": "grammar_box",
+        "text": "📌 Cómo formar la て形\nEstructura: Grupo I (reglas): く→いて / ぐ→いで / ぬ・む・ぶ→んで / る・つ・う→って / す→して\nGrupo II: ます stem + て  /  Grupo III: きます→きて / します→して\n⚠️ いきます (ir) → いって (excepción del Grupo I)\nて形 es la base de: 〜てください (petición), 〜てもいいですか (permiso), 〜てはいけません (prohibición), 〜ています (progreso/estado), 〜てから (después de)."
+      },
+      {
+        "type": "section",
+        "text": "① Conjugación te-kei — Grupo I y II"
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Forma ます",
+            "Forma て"
+          ],
+          [
+            "かきます → かいて",
+            "いきます → いって ⚠️"
+          ],
+          [
+            "いそぎます → いそいで",
+            "のみます → のんで"
+          ],
+          [
+            "よびます → よんで",
+            "まちます → まって"
+          ],
+          [
+            "かえります → かえって",
+            "かします → かして"
+          ],
+          [
+            "たべます → たべて",
+            "ねます → ねて"
+          ],
+          [
+            "おきます → おきて",
+            "みます → みて"
+          ]
+        ]
+      },
+      {
+        "type": "section",
+        "text": "② て + ください — petición educada"
+      },
+      {
+        "type": "example",
+        "jp": "問題をよんでください。",
+        "furigana": "もんだい を よんで ください",
+        "romaji": "",
+        "es": "Por favor lee el problema."
+      },
+      {
+        "type": "example",
+        "jp": "ゆっくりやすんでください。",
+        "furigana": "ゆっくり やすんで ください",
+        "romaji": "",
+        "es": "Por favor descansa tranquilamente."
+      },
+      {
+        "type": "section",
+        "text": "③ て + います — acción en progreso ahora mismo"
+      },
+      {
+        "type": "example",
+        "jp": "ミラーさんは今レポートをよんでいます。",
+        "furigana": "みらーさん は いま れぽーと を よんで います",
+        "romaji": "",
+        "es": "Ahora mismo el señor Miller está leyendo el informe."
+      },
+      {
+        "type": "example",
+        "jp": "テレビをみています。",
+        "furigana": "てれび を みて います",
+        "romaji": "",
+        "es": "Estoy viendo la televisión."
+      },
+      {
+        "type": "section",
+        "text": "④ て + もいいですか — pedir permiso"
+      },
+      {
+        "type": "example",
+        "jp": "えんぴつでかいてもいいですか。",
+        "furigana": "えんぴつ で かいて も いいですか",
+        "romaji": "",
+        "es": "¿Está bien si escribo con lápiz?"
+      }
+    ]
+  },
+  {
+    "num": 15,
+    "title": "て + はいけません / て + います (estado/ocupación)",
+    "description": "Se aprende a expresar prohibiciones y a describir estados permanentes u ocupaciones habituales con て + います.",
+    "content": [
+      {
+        "type": "grammar_box",
+        "text": "📌 て + はいけません / て + います para estados\nEstructura: 〜てはいけません = no se puede, está prohibido\nて + います (estado resultado) = estar [en un estado resultante de una acción]\nて + います (ocupación) = trabajar en / vivir en / estar casado/a...\nLa diferencia clave: ています para acciones momentáneas = progreso ('estoy haciendo'). Para estados resultantes o habituales = condición permanente ('vivo en', 'trabajo en')."
+      },
+      {
+        "type": "section",
+        "text": "① て + はいけません — prohibición"
+      },
+      {
+        "type": "example",
+        "jp": "お酒をのんではいけません。",
+        "furigana": "おさけ を のんで は いけません",
+        "romaji": "",
+        "es": "No está permitido beber alcohol."
+      },
+      {
+        "type": "example",
+        "jp": "ここに車をとめてはいけません。",
+        "furigana": "ここ に くるま を とめて は いけません",
+        "romaji": "",
+        "es": "No se puede aparcar el coche aquí."
+      },
+      {
+        "type": "section",
+        "text": "② て + います — estado u ocupación"
+      },
+      {
+        "type": "example",
+        "jp": "わたしは京都にすんでいます。",
+        "furigana": "わたし は きょうと に すんで います",
+        "romaji": "",
+        "es": "Vivo en Kioto. (estado: resultado de haberse mudado)"
+      },
+      {
+        "type": "example",
+        "jp": "わたしはIMCではたらいています。",
+        "furigana": "わたし は IMC で はたらいて います",
+        "romaji": "",
+        "es": "Trabajo en IMC. (ocupación habitual)"
+      },
+      {
+        "type": "example",
+        "jp": "マリアさんとけっこんしています。",
+        "furigana": "まりあさん と けっこん して います",
+        "romaji": "",
+        "es": "Estoy casado/a con María."
+      }
+    ]
+  },
+  {
+    "num": 16,
+    "title": "て形: secuencia / てから / adj + て形",
+    "description": "La forma て conecta acciones en orden cronológico, indica secuencia con énfasis (てから), y une adjetivos o descripciones.",
+    "content": [
+      {
+        "type": "grammar_box",
+        "text": "📌 て para secuencia / てから / adj-て\nEstructura: [acción1-て] + [acción2-て] + ... + [acción final] = secuencia\n[verbo-て] + から + [siguiente acción] = después de hacer X\nAdj-い: い→くて  /  Adj-な: な→で  /  Sustantivo: + で = unir descripciones\nてから enfatiza que la primera acción DEBE completarse antes de la segunda. La forma て de adjetivos funciona como 'y' o 'además'."
+      },
+      {
+        "type": "section",
+        "text": "① Secuencia de acciones"
+      },
+      {
+        "type": "example",
+        "jp": "あした神戸へいって、映画をみて、買い物します。",
+        "furigana": "あした こうべ へ いって、えいが を みて、かいもの します",
+        "romaji": "",
+        "es": "Mañana iré a Kobe, veré una película y haré compras."
+      },
+      {
+        "type": "section",
+        "text": "② て + から — después de"
+      },
+      {
+        "type": "example",
+        "jp": "うちへかえってから、晩ごはんを食べます。",
+        "furigana": "うち へ かえって から、ばんごはん を たべます",
+        "romaji": "",
+        "es": "Después de volver a casa, cenaré."
+      },
+      {
+        "type": "example",
+        "jp": "仕事がおわってから、泳ぎに行きました。",
+        "furigana": "しごと が おわって から、およぎに いきました",
+        "romaji": "",
+        "es": "Después de terminar el trabajo, fui a nadar."
+      },
+      {
+        "type": "section",
+        "text": "③ て形 de adjetivos — unir características"
+      },
+      {
+        "type": "example",
+        "jp": "ミラーさんはわかくて、元気です。",
+        "furigana": "みらーさん は わかくて、げんき です",
+        "romaji": "",
+        "es": "El señor Miller es joven y lleno de energía. (adj-い + くて)"
+      },
+      {
+        "type": "example",
+        "jp": "ミラーさんはハンサムで、親切です。",
+        "furigana": "みらーさん は はんさむで、しんせつ です",
+        "romaji": "",
+        "es": "El señor Miller es guapo y amable. (adj-な + で)"
+      }
+    ]
+  },
+  {
+    "num": 17,
+    "title": "Forma ない (ない形) — Negativo plain",
+    "description": "La forma ない es el negativo de la forma plain. Es la base de estructuras como 〜ないでください, 〜なければなりません y 〜なくてもいいです.",
+    "content": [
+      {
+        "type": "grammar_box",
+        "text": "📌 Forma ない — Negativo plain\nEstructura: Grupo I: última sílaba → あ段 + ない (excepción: う → わない)\nGrupo II: ます stem + ない\nGrupo III: きます → こない / します → しない\nUsos: ないでください (no hagas), なければなりません (tienes que), なくてもいいです (no es necesario)."
+      },
+      {
+        "type": "section",
+        "text": "① Conjugación forma ない"
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Forma ます",
+            "Forma ない (negativo plain)"
+          ],
+          [
+            "すいます → すわない",
+            "いきます → いかない"
+          ],
+          [
+            "はなします → はなさない",
+            "まちます → またない"
+          ],
+          [
+            "のみます → のまない",
+            "かえります → かえらない"
+          ],
+          [
+            "たべます → たべない",
+            "おきます → おきない"
+          ],
+          [
+            "きます → こない ⚠️",
+            "します → しない ⚠️"
+          ]
+        ]
+      },
+      {
+        "type": "section",
+        "text": "② ないで + ください — pedir que no se haga"
+      },
+      {
+        "type": "example",
+        "jp": "たばこをすわないでください。",
+        "furigana": "たばこ を すわないで ください",
+        "romaji": "",
+        "es": "Por favor no fumes."
+      },
+      {
+        "type": "example",
+        "jp": "かさをわすれないでください。",
+        "furigana": "かさ を わすれないで ください",
+        "romaji": "",
+        "es": "Por favor no olvides el paraguas."
+      },
+      {
+        "type": "section",
+        "text": "③ なければなりません — obligación"
+      },
+      {
+        "type": "grammar_box",
+        "text": "📌 なければなりません\nEstructura: [ない form → なければ] + なりません\nObligación fuerte: 'hay que', 'tiene que hacer'. Forma: quitar い de ない → なければ + なりません."
+      },
+      {
+        "type": "example",
+        "jp": "本をかえさなければなりません。",
+        "furigana": "ほん を かえさ なければ なりません",
+        "romaji": "",
+        "es": "Tengo que devolver el libro."
+      },
+      {
+        "type": "example",
+        "jp": "ざんぎょうしなければなりません。",
+        "furigana": "ざんぎょう し なければ なりません",
+        "romaji": "",
+        "es": "Tengo que hacer horas extras."
+      },
+      {
+        "type": "section",
+        "text": "④ なくてもいいです — no es necesario"
+      },
+      {
+        "type": "grammar_box",
+        "text": "📌 なくてもいいです\nEstructura: [ない → なくて] + もいいです\nIndica que no es obligatorio. Equivale a 'no hace falta', 'no es necesario que'."
+      },
+      {
+        "type": "example",
+        "jp": "名前をかかなくてもいいです。",
+        "furigana": "なまえ を かか なくて も いいです",
+        "romaji": "",
+        "es": "No hace falta que escribas el nombre."
+      },
+      {
+        "type": "example",
+        "jp": "あしたこなくてもいいです。",
+        "furigana": "あした こなくても いいです",
+        "romaji": "",
+        "es": "No es necesario que vengas mañana."
+      }
+    ]
+  },
+  {
+    "num": 18,
+    "title": "Forma diccionario (辞書形) / ことができます / まえに",
+    "description": "La forma diccionario (plain presente afirmativo) es la forma base de los verbos. Se usa para ことができます (poder) y まえに (antes de).",
+    "content": [
+      {
+        "type": "grammar_box",
+        "text": "📌 Forma diccionario (辞書形)\nEstructura: Grupo I: última sílaba → う段 (か→く, き→く, ぎ→ぐ, etc.)\nGrupo II: ます stem + る  /  Grupo III: くる / する\nことができます = poder hacer (habilidad/posibilidad)\n[verbo diccionario] + まえに = antes de hacer\n⚠️ まえに siempre lleva el verbo en forma diccionario (presente), nunca en pasado, incluso si la oración habla del pasado."
+      },
+      {
+        "type": "section",
+        "text": "① Conjugación ます → diccionario"
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Forma ます",
+            "Forma diccionario"
+          ],
+          [
+            "かいます → かう",
+            "かきます → かく"
+          ],
+          [
+            "およぎます → およぐ",
+            "はなします → はなす"
+          ],
+          [
+            "たちます → たつ",
+            "よびます → よぶ"
+          ],
+          [
+            "のみます → のむ",
+            "はいります → はいる"
+          ],
+          [
+            "ねます → ねる",
+            "たべます → たべる"
+          ],
+          [
+            "きます → くる ⚠️",
+            "します → する ⚠️"
+          ]
+        ]
+      },
+      {
+        "type": "section",
+        "text": "② ことができます — poder / capacidad"
+      },
+      {
+        "type": "example",
+        "jp": "ミラーさんは日本語ができます。",
+        "furigana": "みらーさん は にほんご が できます",
+        "romaji": "",
+        "es": "El señor Miller sabe japonés / puede hablar japonés."
+      },
+      {
+        "type": "example",
+        "jp": "漢字をよむことができます。",
+        "furigana": "かんじ を よむ こと が できます",
+        "romaji": "",
+        "es": "Puedo leer kanji."
+      },
+      {
+        "type": "example",
+        "jp": "ここでコピーができます。",
+        "furigana": "ここ で こぴー が できます",
+        "romaji": "",
+        "es": "Aquí se pueden hacer copias."
+      },
+      {
+        "type": "section",
+        "text": "③ まえに — antes de"
+      },
+      {
+        "type": "example",
+        "jp": "ねるまえに、本を読みます。",
+        "furigana": "ねる まえに、ほん を よみます",
+        "romaji": "",
+        "es": "Antes de dormir, leo un libro."
+      },
+      {
+        "type": "example",
+        "jp": "日本へくるまえに、日本語を勉強しました。",
+        "furigana": "にほん へ くる まえに、にほんご を べんきょう しました",
+        "romaji": "",
+        "es": "Antes de venir a Japón, estudié japonés."
+      },
+      {
+        "type": "example",
+        "jp": "しょくじのまえに、手を洗います。",
+        "furigana": "しょくじ の まえに、て を あらいます",
+        "romaji": "",
+        "es": "Antes de la comida, me lavo las manos."
+      }
+    ]
+  },
+  {
+    "num": 19,
+    "title": "Forma た (た形) / たことがあります / たり〜たり / 〜くなります",
+    "description": "La forma た es el pasado plain. Sobre ella se construyen: experiencias pasadas (たことがある), listas de acciones representativas (たり〜たり) y cambios de estado (〜くなります).",
+    "content": [
+      {
+        "type": "grammar_box",
+        "text": "📌 Forma た — Pasado plain\nEstructura: Se forma igual que て形 pero con た/だ en lugar de て/で.\nGrupo I: いて→いた, いで→いだ, んで→んだ, って→った, して→した\nGrupo II: ます stem + た  /  Grupo III: きた / した\n⚠️ いきます → いった (excepción). La forma た se usa también como modificador de sustantivos."
+      },
+      {
+        "type": "section",
+        "text": "① Conjugación ます → た形"
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Forma ます",
+            "Forma た (pasado plain)"
+          ],
+          [
+            "かきます → かいた",
+            "いきます → いった ⚠️"
+          ],
+          [
+            "いそぎます → いそいだ",
+            "のみます → のんだ"
+          ],
+          [
+            "よびます → よんだ",
+            "まちます → まった"
+          ],
+          [
+            "かえります → かえった",
+            "たべます → たべた"
+          ],
+          [
+            "でかけます → でかけた",
+            "みます → みた"
+          ],
+          [
+            "きます → きた ⚠️",
+            "します → した ⚠️"
+          ]
+        ]
+      },
+      {
+        "type": "section",
+        "text": "② たことがあります — experiencia pasada"
+      },
+      {
+        "type": "grammar_box",
+        "text": "📌 たことがあります\nEstructura: [verbo-た] + ことがあります / ことがありません\nExpresa haber tenido la experiencia de hacer algo al menos una vez. Equivale a 'he... alguna vez'. El negativo: たことがありません = 'nunca he...'"
+      },
+      {
+        "type": "example",
+        "jp": "わたしは沖縄へいったことがあります。",
+        "furigana": "わたし は おきなわ へ いった こと が あります",
+        "romaji": "",
+        "es": "He ido a Okinawa alguna vez."
+      },
+      {
+        "type": "example",
+        "jp": "富士山にのぼったことがあります。",
+        "furigana": "ふじさん に のぼった こと が あります",
+        "romaji": "",
+        "es": "He subido al monte Fuji alguna vez."
+      },
+      {
+        "type": "example",
+        "jp": "すしを食べたことがあります。",
+        "furigana": "すし を たべた こと が あります",
+        "romaji": "",
+        "es": "He comido sushi alguna vez."
+      },
+      {
+        "type": "section",
+        "text": "③ たり〜たりします — acciones representativas"
+      },
+      {
+        "type": "grammar_box",
+        "text": "📌 たり〜たりします\nEstructura: [verbo-た] + り + [verbo-た] + り + します\nLista algunas acciones de entre varias posibles, sin agotarlas. Equivale a 'hacer cosas como X e Y'. Siempre termina en します/しました."
+      },
+      {
+        "type": "example",
+        "jp": "毎晩テレビをみたり、本をよんだりします。",
+        "furigana": "まいばん てれび を みたり、ほん を よんだり します",
+        "romaji": "",
+        "es": "Cada noche hago cosas como ver la televisión o leer libros."
+      },
+      {
+        "type": "example",
+        "jp": "日本語をべんきょうしたり、音楽をきいたりします。",
+        "furigana": "にほんご を べんきょうしたり、おんがく を きいたり します",
+        "romaji": "",
+        "es": "Hago cosas como estudiar japonés o escuchar música."
+      },
+      {
+        "type": "section",
+        "text": "④ 〜くなります / 〜になります — cambio de estado"
+      },
+      {
+        "type": "grammar_box",
+        "text": "📌 〜くなります / 〜になります\nEstructura: Adj-い: い → く + なります  /  Adj-な / Sustantivo: に + なります\nExpresa cambio de estado. Equivale a 'ponerse', 'volverse', 'hacerse'. La diferencia: adj-い usa くなります; adj-な y sustantivos usan になります."
+      },
+      {
+        "type": "example",
+        "jp": "テレザちゃんはせがたかくなりました。",
+        "furigana": "てれざちゃん は せ が たかく なりました",
+        "romaji": "",
+        "es": "Teresa se ha vuelto más alta. (adj-い → くなりました)"
+      },
+      {
+        "type": "example",
+        "jp": "テレザちゃんはげんきになりました。",
+        "furigana": "てれざちゃん は げんき に なりました",
+        "romaji": "",
+        "es": "Teresa se puso bien / se recuperó. (adj-な → になりました)"
+      },
+      {
+        "type": "example",
+        "jp": "テレザちゃんは10さいになりました。",
+        "furigana": "てれざちゃん は じゅっさい に なりました",
+        "romaji": "",
+        "es": "Teresa cumplió 10 años. (sustantivo → になりました)"
+      }
+    ]
+  },
+  {
+    "num": 20,
+    "title": "普通形 (Futsūkei) — Forma Ordinaria / Plain Form",
+    "description": "La forma ordinaria (普通形・ふつうけい / futsūkei) es la forma base de verbos, adjetivos y sustantivos. Se usa en conversaciones informales, con amigos y familia. También es la base de estructuras gramaticales avanzadas.",
+    "content": [
+      {
+        "type": "grammar_box",
+        "text": "📌 Forma Ordinaria vs. Forma Polite\nEstructura: 丁寧形 (teineikei) → 普通形 (futsūkei)\nLa forma polite termina en -ます/-です. La forma ordinaria es más directa y casual. Debes conocer ambas."
+      },
+      {
+        "type": "section",
+        "text": "① Verbos — Conjugación en forma plain"
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Forma Polite (丁寧形)",
+            "Forma Plain (普通形)"
+          ],
+          [
+            "かきます (kakimasu)",
+            "かく (kaku)  → escribir"
+          ],
+          [
+            "かきません (kakimasen)",
+            "かかない (kakanai)  → no escribir"
+          ],
+          [
+            "かきました (kakimashita)",
+            "かいた (kaita)  → escribió"
+          ],
+          [
+            "かきませんでした",
+            "かかなかった (kakanakatta)  → no escribió"
+          ],
+          [
+            "あります (arimasu)",
+            "ある (aru)  → hay / tener (cosas)"
+          ],
+          [
+            "ありません (arimasen)",
+            "ない (nai)  → no hay"
+          ],
+          [
+            "ありました (arimashita)",
+            "あった (atta)  → había"
+          ],
+          [
+            "ありませんでした",
+            "なかった (nakatta)  → no había"
+          ]
+        ]
+      },
+      {
+        "type": "section",
+        "text": "② Adjetivos-i — Forma plain"
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Forma Polite",
+            "Forma Plain"
+          ],
+          [
+            "おおきいです (ōkii desu)",
+            "おおきい (ōkii)  → es grande"
+          ],
+          [
+            "おおきくないです",
+            "おおきくない (ōkikunai)  → no es grande"
+          ],
+          [
+            "おおきかったです",
+            "おおきかった (ōkikatta)  → era grande"
+          ],
+          [
+            "おおきくなかったです",
+            "おおきくなかった  → no era grande"
+          ]
+        ]
+      },
+      {
+        "type": "section",
+        "text": "③ Adjetivos-na y Sustantivos — Forma plain"
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Forma Polite",
+            "Forma Plain"
+          ],
+          [
+            "きれいです (kirei desu)",
+            "きれいだ (kirei da)  → es bonito/a"
+          ],
+          [
+            "きれいじゃありません",
+            "きれいじゃない (kirei ja nai)  → no es bonito/a"
+          ],
+          [
+            "きれいでした",
+            "きれいだった (kirei datta)  → era bonito/a"
+          ],
+          [
+            "きれいじゃありませんでした",
+            "きれいじゃなかった  → no era bonito/a"
+          ],
+          [
+            "あめです (ame desu)",
+            "あめだ (ame da)  → es lluvia / es un día de lluvia"
+          ],
+          [
+            "あめじゃありません",
+            "あめじゃない (ame ja nai)  → no es lluvia"
+          ],
+          [
+            "あめでした",
+            "あめだった (ame datta)  → era de lluvia"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "num": 21,
+    "title": "と思います・と言います・でしょう",
+    "description": "① [forma plain] + と思います (to omoimasu) → \"Creo que...\" / \"Pienso que...\"",
+    "content": [
+      {
+        "type": "grammar_box",
+        "text": "📌 と思います — Expresar opiniones\nEstructura: [oración en forma plain] + と思います\nSe usa para expresar lo que uno piensa o cree. La cláusula antes de と siempre va en forma plain."
+      },
+      {
+        "type": "example",
+        "jp": "あした雨がふると思います。",
+        "furigana": "あした あめ が ふる と おもいます",
+        "romaji": "",
+        "es": "Creo que mañana lloverá."
+      },
+      {
+        "type": "example",
+        "jp": "佐藤さんはゴルフをしないと思います。",
+        "furigana": "さとうさん は ごるふ を しない と おもいます",
+        "romaji": "",
+        "es": "Creo que Satō no juega al golf."
+      },
+      {
+        "type": "example",
+        "jp": "山田さんはもうかえったと思います。",
+        "furigana": "やまださん は もう かえった と おもいます",
+        "romaji": "",
+        "es": "Creo que Yamada ya ha vuelto."
+      },
+      {
+        "type": "section",
+        "text": "② [forma plain] + と言いました (to iimashita) → \"Dijo que...\""
+      },
+      {
+        "type": "grammar_box",
+        "text": "📌 と言いました — Citar lo que alguien dijo\nEstructura: [oración en forma plain] + と言いました / と言っています\nSe usa para reportar lo que alguien ha dicho. Es el equivalente del estilo indirecto en español."
+      },
+      {
+        "type": "example",
+        "jp": "わたしは課長に会社をやめると言いました。",
+        "furigana": "わたし は かちょう に かいしゃ を やめる と いいました",
+        "romaji": "",
+        "es": "Le dije al jefe de sección que iba a dejar la empresa."
+      },
+      {
+        "type": "example",
+        "jp": "山田さんは休みがほしいと言っていました。",
+        "furigana": "やまださん は やすみ が ほしい と いっていました",
+        "romaji": "",
+        "es": "Yamada estaba diciendo que quería vacaciones."
+      },
+      {
+        "type": "section",
+        "text": "③ [forma plain] + でしょう (deshō) → Probabilidad / \"¿verdad?\""
+      },
+      {
+        "type": "grammar_box",
+        "text": "📌 でしょう — Probabilidad y confirmación\nEstructura: [forma plain] + でしょう\nExpresa probabilidad (\"probablemente...\") o busca confirmación del interlocutor (\"¿verdad?\", \"¿no?\"). Con entonación ascendente es pregunta."
+      },
+      {
+        "type": "example",
+        "jp": "あしたパーティーにくるでしょう？",
+        "furigana": "あした ぱーてぃー に くる でしょう",
+        "romaji": "",
+        "es": "¿Vendrás a la fiesta mañana, verdad?"
+      },
+      {
+        "type": "example",
+        "jp": "大阪は食べ物がおいしいでしょう。",
+        "furigana": "おおさか は たべもの が おいしい でしょう",
+        "romaji": "",
+        "es": "La comida de Osaka probablemente es deliciosa."
+      }
+    ]
+  },
+  {
+    "num": 22,
+    "title": "Oraciones de Relativo (修飾節・しゅうしょくせつ)",
+    "description": "En japonés, las cláusulas relativas van ANTES del sustantivo que modifican (al contrario que en español). El verbo de la cláusula va en forma plain.",
+    "content": [
+      {
+        "type": "grammar_box",
+        "text": "📌 Oraciones de relativo\nEstructura: [cláusula en forma plain] + sustantivo\nLa cláusula que describe al sustantivo se coloca directamente antes de él. No hay pronombre relativo (como 'que', 'quien', 'donde') en japonés."
+      },
+      {
+        "type": "section",
+        "text": "① Modificar sustantivos con verbos"
+      },
+      {
+        "type": "example",
+        "jp": "子どもがよむ本",
+        "furigana": "こども が よむ ほん",
+        "romaji": "",
+        "es": "el libro que lee el niño"
+      },
+      {
+        "type": "example",
+        "jp": "女の人が読む雑誌です。",
+        "furigana": "おんな の ひと が よむ ざっし です",
+        "romaji": "",
+        "es": "Es la revista que lee la mujer."
+      },
+      {
+        "type": "example",
+        "jp": "自転車を置く所です。",
+        "furigana": "じてんしゃ を おく ところ です",
+        "romaji": "",
+        "es": "Es el lugar donde se pone la bicicleta."
+      },
+      {
+        "type": "section",
+        "text": "② Ejemplos completos con oraciones de relativo"
+      },
+      {
+        "type": "example",
+        "jp": "母がよく作る料理はカレーです。",
+        "furigana": "はは が よく つくる りょうり は かれー です",
+        "romaji": "",
+        "es": "La comida que mi madre hace a menudo es curry."
+      },
+      {
+        "type": "example",
+        "jp": "彼が持っているパソコンは新しいです。",
+        "furigana": "かれ が もっている ぱそこん は あたらしい です",
+        "romaji": "",
+        "es": "El ordenador que él tiene es nuevo."
+      },
+      {
+        "type": "example",
+        "jp": "本を読む人が好きです。",
+        "furigana": "ほん を よむ ひと が すき です",
+        "romaji": "",
+        "es": "Me gustan las personas que leen libros."
+      },
+      {
+        "type": "example",
+        "jp": "テレビをみる時間がありません。",
+        "furigana": "てれび を みる じかん が ありません",
+        "romaji": "",
+        "es": "No tengo tiempo para ver la televisión."
+      }
+    ]
+  },
+  {
+    "num": 23,
+    "title": "とき (toki) / と (to condicional)",
+    "description": "① [verbo/adj] + とき → \"cuando...\"",
+    "content": [
+      {
+        "type": "grammar_box",
+        "text": "📌 とき — Expresar 'cuando'\nEstructura: [verbo presente] + とき  /  [verbo pasado] + とき\n⚠️ CLAVE: Si la acción del とき es POSTERIOR a la principal → verbo en presente. Si es ANTERIOR → verbo en pasado."
+      },
+      {
+        "type": "example",
+        "jp": "道をわたるとき、車に気をつけます。",
+        "furigana": "みち を わたる とき、くるま に き を つけます",
+        "romaji": "",
+        "es": "Cuando cruzo la calle, tengo cuidado con los coches."
+      },
+      {
+        "type": "example",
+        "jp": "うちへかえったとき、「ただいま」と言います。",
+        "furigana": "うち へ かえった とき、ただいま と いいます",
+        "romaji": "",
+        "es": "Cuando vuelvo a casa, digo 'tadaima' (ya llegué)."
+      },
+      {
+        "type": "example",
+        "jp": "ねむいとき、コーヒーを飲みます。",
+        "furigana": "ねむい とき、こーひー を のみます",
+        "romaji": "",
+        "es": "Cuando tengo sueño, bebo café."
+      },
+      {
+        "type": "example",
+        "jp": "26さいのとき、結婚しました。",
+        "furigana": "にじゅうろくさい の とき、けっこん しました",
+        "romaji": "",
+        "es": "Cuando tenía 26 años, me casé."
+      },
+      {
+        "type": "section",
+        "text": "② [verbo diccionario] + と → consecuencia natural / automática"
+      },
+      {
+        "type": "grammar_box",
+        "text": "📌 と — Consecuencia natural\nEstructura: [verbo forma diccionario] + と + [resultado]\nExpresa que algo ocurre automáticamente o de forma natural como consecuencia de otra acción. No se usa para intenciones, órdenes o peticiones."
+      },
+      {
+        "type": "example",
+        "jp": "これをまわすと、音が大きくなります。",
+        "furigana": "これ を まわす と、おと が おおきく なります",
+        "romaji": "",
+        "es": "Si giras esto, el sonido sube (se hace más grande)."
+      },
+      {
+        "type": "example",
+        "jp": "右へまがると、郵便局があります。",
+        "furigana": "みぎ へ まがる と、ゆうびんきょく が あります",
+        "romaji": "",
+        "es": "Si giras a la derecha, hay una oficina de correos."
+      },
+      {
+        "type": "example",
+        "jp": "ここをおすと、お湯が出ます。",
+        "furigana": "ここ を おす と、おゆ が でます",
+        "romaji": "",
+        "es": "Si pulsas aquí, sale agua caliente."
+      }
+    ]
+  },
+  {
+    "num": 24,
+    "title": "あげる・もらう・くれる (Dar y Recibir)",
+    "description": "Esta lección es fundamental para comprender las relaciones sociales en japonés. Los verbos de dar/recibir cambian según la perspectiva del hablante.",
+    "content": [
+      {
+        "type": "note",
+        "text": "Los tres verbos principales"
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Verbo",
+            "Significado",
+            "Perspectiva"
+          ],
+          [
+            "あげます (agemasu)",
+            "dar",
+            "Yo doy algo a otra persona"
+          ],
+          [
+            "もらいます (moraimasu)",
+            "recibir",
+            "Yo recibo algo de otra persona"
+          ],
+          [
+            "くれます (kuremasu)",
+            "dar (a mí)",
+            "Otra persona me da algo a mí"
+          ]
+        ]
+      },
+      {
+        "type": "section",
+        "text": "② Ejemplos"
+      },
+      {
+        "type": "example",
+        "jp": "ミラーさんはわたしにワインをくれました。",
+        "furigana": "みらーさん は わたし に わいん を くれました",
+        "romaji": "",
+        "es": "Miller me dio vino (a mí)."
+      },
+      {
+        "type": "example",
+        "jp": "わたしは山田さんに旅行の写真をみせてもらいました。",
+        "furigana": "わたし は やまださん に りょこう の しゃしん を みせて もらいました",
+        "romaji": "",
+        "es": "Hice que Yamada me mostrara las fotos del viaje (recibí el favor)."
+      },
+      {
+        "type": "example",
+        "jp": "わたしはカリナさんにCDをかしてあげました。",
+        "furigana": "わたし は かりなさん に CD を かして あげました",
+        "romaji": "",
+        "es": "Le presté un CD a Karina (yo le hice el favor)."
+      },
+      {
+        "type": "example",
+        "jp": "山田さんはわたしを大阪城へつれていってくれました。",
+        "furigana": "やまださん は わたし を おおさかじょう へ つれて いって くれました",
+        "romaji": "",
+        "es": "Yamada me llevó al castillo de Osaka (como favor hacia mí)."
+      }
+    ]
+  },
+  {
+    "num": 25,
+    "title": "たら (tara) / ても (temo)",
+    "description": "① [forma た] + ら → \"si/cuando...\" (condicional/temporal)",
+    "content": [
+      {
+        "type": "grammar_box",
+        "text": "📌 たら — Condicional y temporal\nEstructura: [verbo-た + ら]  /  [adj-い → かったら]  /  [adj-na/sust → だったら]\nExpresa condición (si ocurre X, entonces Y) o secuencia temporal (cuando ocurra X, haré Y). Es muy versátil y común en conversación cotidiana."
+      },
+      {
+        "type": "example",
+        "jp": "雨がふったら、行きません。",
+        "furigana": "あめ が ふったら、いきません",
+        "romaji": "",
+        "es": "Si llueve, no voy."
+      },
+      {
+        "type": "example",
+        "jp": "ミラーさんがきたら、出かけましょう。",
+        "furigana": "みらーさん が きたら、でかけましょう",
+        "romaji": "",
+        "es": "Cuando venga Miller, salgamos."
+      },
+      {
+        "type": "example",
+        "jp": "やすかったら、あの店で買います。",
+        "furigana": "やすかったら、あの みせ で かいます",
+        "romaji": "",
+        "es": "Si está barato, lo compro en esa tienda."
+      },
+      {
+        "type": "example",
+        "jp": "ひまだったら、遊びに行きます。",
+        "furigana": "ひまだったら、あそびに いきます",
+        "romaji": "",
+        "es": "Si tengo tiempo libre, voy a salir a divertirme."
+      },
+      {
+        "type": "section",
+        "text": "② [forma て] + も → \"aunque...\" / \"incluso si...\""
+      },
+      {
+        "type": "grammar_box",
+        "text": "📌 ても — Concesión\nEstructura: [verbo-て + も]  /  [adj-い → くても]  /  [adj-na/sust → でも]\nExpresa que el resultado de la cláusula principal se da independientemente de la condición. Equivale a 'aunque', 'incluso si', 'por más que'."
+      },
+      {
+        "type": "example",
+        "jp": "かんがえても、わかりません。",
+        "furigana": "かんがえても、わかりません",
+        "romaji": "",
+        "es": "Aunque lo piense, no lo entiendo."
+      },
+      {
+        "type": "example",
+        "jp": "お金がなくても、まいにち楽しいです。",
+        "furigana": "おかね が なくても、まいにち たのしい です",
+        "romaji": "",
+        "es": "Aunque no tenga dinero, cada día es divertido."
+      },
+      {
+        "type": "example",
+        "jp": "べんりでも、車は使いません。",
+        "furigana": "べんりでも、くるま は つかいません",
+        "romaji": "",
+        "es": "Aunque sea conveniente, no uso el coche."
+      }
+    ]
+  },
+  {
+    "num": 26,
+    "title": "んです / んですか (Explicación y contexto)",
+    "description": "",
+    "content": [
+      {
+        "type": "grammar_box",
+        "text": "📌 んです — Forma explicativa\nEstructura: [forma plain] + んです / んですか\nAñade un matiz explicativo, de búsqueda de confirmación o de información adicional. Es MUY frecuente en japonés conversacional. Indica que hay un contexto o razón detrás de lo que se dice."
+      },
+      {
+        "type": "section",
+        "text": "① Usos principales"
+      },
+      {
+        "type": "example",
+        "jp": "どうして会社をやすんだんですか。",
+        "furigana": "どうして かいしゃ を やすんだ んですか",
+        "romaji": "",
+        "es": "¿Por qué faltaste a la empresa? (buscando explicación)"
+      },
+      {
+        "type": "example",
+        "jp": "頭がいたかったんです。",
+        "furigana": "あたま が いたかった んです",
+        "romaji": "",
+        "es": "Es que me dolía la cabeza. (dando explicación)"
+      },
+      {
+        "type": "example",
+        "jp": "資料がほしいんですが、おくっていただけませんか。",
+        "furigana": "しりょう が ほしい んですが、おくって いただけませんか",
+        "romaji": "",
+        "es": "Es que necesito los materiales, ¿podría enviármelos?"
+      },
+      {
+        "type": "example",
+        "jp": "チケットがいるんですか。",
+        "furigana": "ちけっと が いる んですか",
+        "romaji": "",
+        "es": "¿Es que necesitas una entrada? (pidiendo confirmación)"
+      }
+    ]
+  },
+  {
+    "num": 27,
+    "title": "Forma Potencial (可能形・かのうけい)",
+    "description": "① Conjugación de la forma potencial",
+    "content": [
+      {
+        "type": "grammar_box",
+        "text": "📌 Forma Potencial — Poder hacer algo\nEstructura: Grupo I: cambiar última sílaba a え + ます  /  Grupo II: + られます  /  Grupo III: こられます / できます\nLa forma potencial expresa capacidad o posibilidad de hacer algo. Con みえます/きこえます se expresa percepción involuntaria."
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Forma ます",
+            "Forma Potencial"
+          ],
+          [
+            "うたいます (utaimasu)",
+            "うたえます (utaemasu) → poder cantar"
+          ],
+          [
+            "ひきます (hikimasu)",
+            "ひけます (hikemasu) → poder tocar (instrumento)"
+          ],
+          [
+            "よみます (yomimasu)",
+            "よめます (yomemasu) → poder leer"
+          ],
+          [
+            "はしります (hashirimasu)",
+            "はしれます (hashiremasu) → poder correr"
+          ],
+          [
+            "しらべます (shirabemasu)",
+            "しらべられます → poder investigar"
+          ],
+          [
+            "おぼえます (oboemasu)",
+            "おぼえられます → poder memorizar"
+          ],
+          [
+            "きます (kimasu)",
+            "こられます (koraremasu) → poder venir"
+          ],
+          [
+            "します (shimasu)",
+            "できます (dekimasu) → poder hacer"
+          ]
+        ]
+      },
+      {
+        "type": "section",
+        "text": "② Ejemplos de uso"
+      },
+      {
+        "type": "example",
+        "jp": "わたしははしが使えます。",
+        "furigana": "わたし は はし が つかえます",
+        "romaji": "",
+        "es": "Yo puedo usar palillos."
+      },
+      {
+        "type": "example",
+        "jp": "さしみが食べられます。",
+        "furigana": "さしみ が たべられます",
+        "romaji": "",
+        "es": "Puedo comer sashimi."
+      },
+      {
+        "type": "grammar_box",
+        "text": "わたしは日本語がひらがなしかわかりません。\n【わたし は にほんご が ひらがな しか わかりません】\nWatashi wa Nihongo ga hiragana shika wakarimasen.\n→ En japonés solo entiendo el hiragana. (しか + negativo = solo)"
+      },
+      {
+        "type": "section",
+        "text": "③ みえます (miemasu) / きこえます (kikoemasu) — Percepción involuntaria"
+      },
+      {
+        "type": "grammar_box",
+        "text": "📌 みえます / きこえます — Ver y oír de forma natural\nEstructura: [lugar] + から + [cosa] + が + みえます/きこえます\nみえます = 'se puede ver' (percepción natural, no intencional). きこえます = 'se puede oír'. Se diferencian de みます (mirar) y ききます (escuchar)."
+      },
+      {
+        "type": "example",
+        "jp": "２階からはなびがみえます。",
+        "furigana": "にかい から はなび が みえます",
+        "romaji": "",
+        "es": "Desde el segundo piso se pueden ver los fuegos artificiales."
+      },
+      {
+        "type": "example",
+        "jp": "隣の部屋からこえがきこえます。",
+        "furigana": "となり の へや から こえ が きこえます",
+        "romaji": "",
+        "es": "Desde la habitación de al lado se oye una voz."
+      }
+    ]
+  },
+  {
+    "num": 28,
+    "title": "ながら (nagara) / し (shi) / たり〜たりします",
+    "description": "① ながら → hacer dos cosas a la vez",
+    "content": [
+      {
+        "type": "grammar_box",
+        "text": "📌 ながら — Acciones simultáneas\nEstructura: [verbo ます-stem] + ながら + [acción principal]\nIndica que dos acciones ocurren al mismo tiempo. La acción DESPUÉS de ながら es la secundaria; la acción principal va al final."
+      },
+      {
+        "type": "example",
+        "jp": "写真をみながら、説明します。",
+        "furigana": "しゃしん を みながら、せつめい します",
+        "romaji": "",
+        "es": "Explico mientras miro las fotos."
+      },
+      {
+        "type": "example",
+        "jp": "はたらきながら、日本語を勉強しています。",
+        "furigana": "はたらきながら、にほんご を べんきょう しています",
+        "romaji": "",
+        "es": "Estoy estudiando japonés mientras trabajo."
+      },
+      {
+        "type": "section",
+        "text": "② し → dar múltiples razones"
+      },
+      {
+        "type": "grammar_box",
+        "text": "📌 し — Enumerar razones / características\nEstructura: [forma plain] + し、[forma plain] + し、...\nSe usa para dar varias razones o características a favor de algo. Equivale a 'además...', 'y también...' Implica que hay más razones no mencionadas."
+      },
+      {
+        "type": "example",
+        "jp": "鈴木さんはピアノもひけるし、歌もうたえるし、それにダンスもできます。",
+        "furigana": "すずきさん は ぴあの も ひける し、うた も うたえる し、それに だんす も できます",
+        "romaji": "",
+        "es": "Suzuki sabe tocar el piano, además puede cantar, y encima sabe bailar."
+      },
+      {
+        "type": "example",
+        "jp": "この店はしずかだし、値段もやすいし、いつもここで食べています。",
+        "furigana": "この みせ は しずかだし、ねだん も やすいし、いつも ここで たべています",
+        "romaji": "",
+        "es": "Esta tienda es tranquila, además los precios son baratos, así que siempre como aquí."
+      },
+      {
+        "type": "section",
+        "text": "③ たり〜たりします → lista de actividades"
+      },
+      {
+        "type": "grammar_box",
+        "text": "📌 たり〜たりします — Acciones representativas\nEstructura: [verbo-た + り] + [verbo-た + り] + します\nSe usa para mencionar algunas actividades de entre varias, sin agotarlas todas. Equivale a 'hacer cosas como X e Y'. Siempre termina en します."
+      },
+      {
+        "type": "example",
+        "jp": "休みの日は娘と買い物に行ったり、映画をみたりして過ごします。",
+        "furigana": "やすみ の ひ は むすめ と かいもの に いったり、えいが を みたり して すごします",
+        "romaji": "",
+        "es": "Los días libres paso el tiempo haciendo cosas como ir de compras con mi hija o ver películas."
+      }
+    ]
+  },
+  {
+    "num": 29,
+    "title": "ています (estado resultante) / てしまいます",
+    "description": "② てしまいます → acción completada (con lamento o énfasis)",
+    "content": [
+      {
+        "type": "section",
+        "text": "① て + います → estado resultante"
+      },
+      {
+        "type": "grammar_box",
+        "text": "📌 ています — Estado resultante de una acción pasada\nEstructura: [verbo-て] + います\nAdemás de indicar acciones en progreso, ています también describe el ESTADO RESULTANTE de una acción completada. Ej: murir → estar muerto. La puerta se abrió → la puerta está abierta."
+      },
+      {
+        "type": "example",
+        "jp": "ドアがあいています。",
+        "furigana": "どあ が あいています",
+        "romaji": "",
+        "es": "La puerta está abierta. (resultado de haberse abierto)"
+      },
+      {
+        "type": "example",
+        "jp": "車がとまっています。",
+        "furigana": "くるま が とまっています",
+        "romaji": "",
+        "es": "El coche está parado. (resultado de haberse parado)"
+      },
+      {
+        "type": "example",
+        "jp": "ガラスがわれています。",
+        "furigana": "がらす が われています",
+        "romaji": "",
+        "es": "El cristal está roto. (resultado de haberse roto)"
+      },
+      {
+        "type": "grammar_box",
+        "text": "📌 てしまいます — Completar algo (con matiz de lamento o sorpresa)\nEstructura: [verbo-て] + しまいます / しまいました\nExpresa que una acción se ha completado, a menudo con un matiz de lamento (\"¡qué fastidio!\") o simplemente énfasis en la finalización total."
+      },
+      {
+        "type": "example",
+        "jp": "『げんじものがたり』は全部よんでしまいました。",
+        "furigana": "げんじものがたり は ぜんぶ よんで しまいました",
+        "romaji": "",
+        "es": "Me leí 'Genji Monogatari' entero (lo terminé del todo)."
+      },
+      {
+        "type": "example",
+        "jp": "財布をおとしてしまいました。",
+        "furigana": "さいふ を おとして しまいました",
+        "romaji": "",
+        "es": "Se me cayó la cartera (qué lástima / lo perdí por descuido)."
+      },
+      {
+        "type": "example",
+        "jp": "パソコンがこわれてしまいました。",
+        "furigana": "ぱそこん が こわれて しまいました",
+        "romaji": "",
+        "es": "El ordenador se rompió (por desgracia)."
+      }
+    ]
+  },
+  {
+    "num": 30,
+    "title": "てあります / ておきます",
+    "description": "① てあります → resultado de una acción intencional",
+    "content": [
+      {
+        "type": "grammar_box",
+        "text": "📌 てあります — Estado como resultado de acción intencional\nEstructura: [verbo transitivo-て] + あります\nDescribe el estado resultante de algo que alguien hizo intencionalmente. Se usa con verbos transitivos. Indica preparación o disposición previa."
+      },
+      {
+        "type": "example",
+        "jp": "カレンダーにこんげつの予定がかいてあります。",
+        "furigana": "かれんだー に こんげつ の よてい が かいて あります",
+        "romaji": "",
+        "es": "En el calendario están escritos los planes de este mes."
+      },
+      {
+        "type": "example",
+        "jp": "写真はひきだしにしまってあります。",
+        "furigana": "しゃしん は ひきだし に しまって あります",
+        "romaji": "",
+        "es": "Las fotos están guardadas en el cajón."
+      },
+      {
+        "type": "section",
+        "text": "② ておきます → hacer algo de antemano / para prepararse"
+      },
+      {
+        "type": "grammar_box",
+        "text": "📌 ておきます — Hacer algo con anticipación\nEstructura: [verbo-て] + おきます\nIndica que se realiza una acción con vistas al futuro o para prepararse. Equivale a 'hacer algo de antemano', 'dejar algo hecho para cuando sea necesario'."
+      },
+      {
+        "type": "example",
+        "jp": "子どもが生まれるまえに、服やベッドをかっておきます。",
+        "furigana": "こども が うまれる まえに、ふく や べっど を かって おきます",
+        "romaji": "",
+        "es": "Antes de que nazca el bebé, compraré ropa y una cama (como preparación)."
+      },
+      {
+        "type": "example",
+        "jp": "食事が終わったら、ちゃわんやお皿をあらっておきます。",
+        "furigana": "しょくじ が おわったら、ちゃわん や おさら を あらって おきます",
+        "romaji": "",
+        "es": "Cuando termine de comer, lavaré los cuencos y platos (para tenerlos listos)."
+      }
+    ]
+  },
+  {
+    "num": 31,
+    "title": "Forma Volitiva (意向形) / つもりです / 予定です",
+    "description": "① Forma volitiva (意向形・いこうけい) — \"Vamos a...\" / \"Hagamos...\"",
+    "content": [
+      {
+        "type": "grammar_box",
+        "text": "📌 Forma Volitiva — Propuesta e intención\nEstructura: Grupo I: última sílaba → o-段 + う  /  Grupo II: + よう  /  Grupo III: こよう / しよう\nSe usa para proponer acciones ('¡vamos!') o expresar intención interna ('pienso hacer')."
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Forma ます",
+            "Forma Volitiva (意向形)"
+          ],
+          [
+            "かいます → かおう",
+            "いきます → いこう"
+          ],
+          [
+            "あるきます → あるこう",
+            "なおします → なおそう"
+          ],
+          [
+            "かえます → かえよう",
+            "おぼえます → おぼえよう"
+          ],
+          [
+            "きます → こよう",
+            "します → しよう"
+          ]
+        ]
+      },
+      {
+        "type": "section",
+        "text": "② Ejemplos de uso"
+      },
+      {
+        "type": "example",
+        "jp": "買い物にいこう。",
+        "furigana": "かいもの に いこう",
+        "romaji": "",
+        "es": "¡Vamos de compras! (propuesta informal)"
+      },
+      {
+        "type": "example",
+        "jp": "外国ではたらこうと思っています。",
+        "furigana": "がいこく で はたらこう と おもっています",
+        "romaji": "",
+        "es": "Estoy pensando en trabajar en el extranjero."
+      },
+      {
+        "type": "section",
+        "text": "③ つもりです → intención firme"
+      },
+      {
+        "type": "grammar_box",
+        "text": "📌 つもりです — Intención firme\nEstructura: [forma plain (presente)] + つもりです  /  [forma plain (negativo)] + つもりです\nExpresa una intención decidida. Es más firme que と思っています."
+      },
+      {
+        "type": "example",
+        "jp": "わたしはずっと日本にすむつもりです。",
+        "furigana": "わたし は ずっと にほん に すむ つもりです",
+        "romaji": "",
+        "es": "Tengo la intención de vivir en Japón para siempre."
+      },
+      {
+        "type": "example",
+        "jp": "国へかえらないつもりです。",
+        "furigana": "くに へ かえらない つもりです",
+        "romaji": "",
+        "es": "Tengo intención de no volver a mi país."
+      },
+      {
+        "type": "section",
+        "text": "④ 予定です (yotei desu) → plan / horario previsto"
+      },
+      {
+        "type": "grammar_box",
+        "text": "📌 予定です — Plan o programa establecido\nEstructura: [verbo forma diccionario / sustantivo] + 予定です\nExpresa un plan concreto o un horario ya establecido. Más formal y concreto que つもりです."
+      },
+      {
+        "type": "example",
+        "jp": "部長は支店へいく予定です。",
+        "furigana": "ぶちょう は してん へ いく よてい です",
+        "romaji": "",
+        "es": "El jefe de departamento tiene previsto ir a la sucursal."
+      },
+      {
+        "type": "example",
+        "jp": "飛行機は11時につく予定です。",
+        "furigana": "ひこうき は じゅういちじ に つく よてい です",
+        "romaji": "",
+        "es": "El avión está previsto que llegue a las 11."
+      }
+    ]
+  },
+  {
+    "num": 32,
+    "title": "ほうがいいです / でしょう / かもしれません",
+    "description": "① ほうがいいです → recomendación / consejo",
+    "content": [
+      {
+        "type": "grammar_box",
+        "text": "📌 ほうがいいです — Dar consejos\nEstructura: [verbo pasado] + ほうがいいです  /  [verbo negativo] + ほうがいいです\nSe usa para dar recomendaciones. Con el pasado implica una acción afirmativa; con la negativa implica que no debería hacerse."
+      },
+      {
+        "type": "example",
+        "jp": "病院へいったほうがいいです。",
+        "furigana": "びょういん へ いった ほうが いいです",
+        "romaji": "",
+        "es": "Sería mejor que fueras al médico."
+      },
+      {
+        "type": "example",
+        "jp": "たばこをすわないほうがいいです。",
+        "furigana": "たばこ を すわない ほうが いいです",
+        "romaji": "",
+        "es": "Sería mejor que no fumaras."
+      },
+      {
+        "type": "section",
+        "text": "② かもしれません → posibilidad / \"quizás\""
+      },
+      {
+        "type": "grammar_box",
+        "text": "📌 かもしれません — Posibilidad\nEstructura: [forma plain] + かもしれません\nExpresa posibilidad incierta. Equivale a 'quizás', 'puede que', 'a lo mejor'. Es más incierto que でしょう."
+      },
+      {
+        "type": "example",
+        "jp": "彼は会社をやめるかもしれません。",
+        "furigana": "かれ は かいしゃ を やめる かも しれません",
+        "romaji": "",
+        "es": "Quizás él deje la empresa."
+      },
+      {
+        "type": "example",
+        "jp": "あした いそがしいかもしれません。",
+        "furigana": "あした いそがしい かも しれません",
+        "romaji": "",
+        "es": "A lo mejor mañana estoy ocupado."
+      }
+    ]
+  },
+  {
+    "num": 33,
+    "title": "Forma Imperativa / Prohibitiva / と言う (citar órdenes)",
+    "description": "① Forma imperativa (命令形・めいれいけい) y prohibitiva (禁止形・きんしけい)",
+    "content": [
+      {
+        "type": "grammar_box",
+        "text": "📌 Forma imperativa y prohibitiva\nEstructura: Imperativo: Grupo I → え段  /  Grupo II → ろ  /  Grupo III → こい / しろ\nProhibitivo: [forma diccionario] + な\nSe usan en situaciones de urgencia, señales, anuncios. En conversación normal es muy brusco. La forma prohibitiva (verbo + な) significa 'no hagas X'."
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Forma ます",
+            "Imperativo (命令形)",
+            "Prohibitivo (禁止形)"
+          ],
+          [
+            "いいます → いえ",
+            "いうな"
+          ],
+          [
+            "かきます → かけ",
+            "かくな"
+          ],
+          [
+            "やめます → やめろ",
+            "やめるな"
+          ],
+          [
+            "きます → こい",
+            "くるな"
+          ],
+          [
+            "します → しろ",
+            "するな"
+          ]
+        ]
+      },
+      {
+        "type": "section",
+        "text": "② Ejemplos en contexto (señales, urgencias)"
+      },
+      {
+        "type": "example",
+        "jp": "交通規則をまもれ。",
+        "furigana": "こうつうきそく を まもれ",
+        "romaji": "",
+        "es": "¡Respeta las normas de tráfico! (señal/orden)"
+      },
+      {
+        "type": "example",
+        "jp": "電車の中でさわぐな。",
+        "furigana": "でんしゃ の なか で さわぐな",
+        "romaji": "",
+        "es": "¡No hagas ruido dentro del tren! (prohibición)"
+      },
+      {
+        "type": "section",
+        "text": "③ と言う / と伝える → citar órdenes o mensajes"
+      },
+      {
+        "type": "example",
+        "jp": "山田さんはあした５時にくると言っていました。",
+        "furigana": "やまださん は あした ごじ に くる と いっていました",
+        "romaji": "",
+        "es": "Yamada decía que mañana vendría a las 5."
+      },
+      {
+        "type": "example",
+        "jp": "田中さんに10分ほどおくれると伝えていただけませんか。",
+        "furigana": "たなかさん に じゅっぷんほど おくれる と つたえて いただけませんか",
+        "romaji": "",
+        "es": "¿Podría decirle a Tanaka que llegaré unos 10 minutos tarde?"
+      }
+    ]
+  },
+  {
+    "num": 34,
+    "title": "とおりに / あとで / ないで",
+    "description": "① とおりに → \"tal como...\" / \"de la misma manera que\"",
+    "content": [
+      {
+        "type": "grammar_box",
+        "text": "📌 とおりに — Hacer algo siguiendo un modelo\nEstructura: [verbo pasado / sustantivo] + とおりに\nIndica que la acción se realiza de la misma manera que algo o alguien. Equivale a 'tal como', 'siguiendo', 'de acuerdo con'."
+      },
+      {
+        "type": "example",
+        "jp": "わたしが言ったとおりに、言ってください。",
+        "furigana": "わたし が いった とおりに、いって ください",
+        "romaji": "",
+        "es": "Por favor dilo tal como yo lo dije."
+      },
+      {
+        "type": "example",
+        "jp": "せつめいしょのとおりに書いてください。",
+        "furigana": "せつめいしょ の とおりに かいて ください",
+        "romaji": "",
+        "es": "Por favor escríbelo siguiendo las instrucciones."
+      },
+      {
+        "type": "section",
+        "text": "② あとで → \"después de...\""
+      },
+      {
+        "type": "grammar_box",
+        "text": "📌 あとで — Después de una acción\nEstructura: [verbo pasado] + あとで  /  [sustantivo] + のあとで\nIndica que una acción ocurre después de otra. La primera acción debe estar completada."
+      },
+      {
+        "type": "example",
+        "jp": "仕事がおわったあとで、飲みに行きます。",
+        "furigana": "しごと が おわった あとで、のみに いきます",
+        "romaji": "",
+        "es": "Después de terminar el trabajo, voy a tomar algo."
+      },
+      {
+        "type": "example",
+        "jp": "スポーツのあとで、シャワーを浴びます。",
+        "furigana": "すぽーつ の あとで、しゃわー を あびます",
+        "romaji": "",
+        "es": "Después del deporte, me ducho."
+      },
+      {
+        "type": "section",
+        "text": "③ ないで → \"sin hacer...\" / \"en lugar de hacer\""
+      },
+      {
+        "type": "grammar_box",
+        "text": "📌 ないで — Hacer algo sin hacer otra cosa\nEstructura: [verbo forma ない] + で\nIndica que la acción principal se realiza sin llevar a cabo la acción del ないで. Equivale a 'sin hacer X'."
+      },
+      {
+        "type": "example",
+        "jp": "傘をもたないで、出かけます。",
+        "furigana": "かさ を もたないで、でかけます",
+        "romaji": "",
+        "es": "Salgo sin llevar paraguas."
+      },
+      {
+        "type": "example",
+        "jp": "朝ごはんをたべないで、学校に行きます。",
+        "furigana": "あさごはん を たべないで、がっこう に いきます",
+        "romaji": "",
+        "es": "Voy al colegio sin desayunar."
+      }
+    ]
+  },
+  {
+    "num": 35,
+    "title": "Forma Condicional ば (ba-kei)",
+    "description": "",
+    "content": [
+      {
+        "type": "grammar_box",
+        "text": "📌 Forma condicional ば — Condición hipotética\nEstructura: Grupo I: última sílaba → え段 + ば  /  Grupo II: + れば  /  Grupo III: くれば / すれば\nAdj-i: → ければ  /  Adj-na / Sust: → なら\nExpresa condiciones hipotéticas o generales. A menudo implica que si se cumple la condición, el resultado es esperable o deseable. Se diferencia de たら en que ば es más formal y no se usa con pasado en el resultado."
+      },
+      {
+        "type": "section",
+        "text": "① Conjugación ば"
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Forma ます",
+            "Forma ば (condicional)"
+          ],
+          [
+            "あいます → あえば",
+            "きます → くれば"
+          ],
+          [
+            "いそぎます → いそげば",
+            "だします → だせば"
+          ],
+          [
+            "まちます → まてば",
+            "よびます → よべば"
+          ],
+          [
+            "はれます → はれば",
+            "みます → みれば"
+          ],
+          [
+            "します → すれば",
+            "たかい → たかければ"
+          ],
+          [
+            "きれい [な] → きれいなら",
+            "あめ → あめなら"
+          ]
+        ]
+      },
+      {
+        "type": "section",
+        "text": "② Ejemplos de uso"
+      },
+      {
+        "type": "example",
+        "jp": "説明書をよめば、使い方がわかります。",
+        "furigana": "せつめいしょ を よめば、つかいかた が わかります",
+        "romaji": "",
+        "es": "Si lees el manual, entenderás cómo usarlo."
+      },
+      {
+        "type": "example",
+        "jp": "６時に起きなければ、会社に遅れます。",
+        "furigana": "ろくじ に おきなければ、かいしゃ に おくれます",
+        "romaji": "",
+        "es": "Si no me levanto a las 6, llegaré tarde a la empresa."
+      },
+      {
+        "type": "example",
+        "jp": "いいてんきなら、山登りに行きたいです。",
+        "furigana": "いい てんきなら、やまのぼり に いきたいです",
+        "romaji": "",
+        "es": "Si hace buen tiempo, querría ir a hacer senderismo."
+      },
+      {
+        "type": "example",
+        "jp": "東京スカイツリーに上りたいんですが、どうすればいいですか。",
+        "furigana": "とうきょうすかいつりー に のぼりたい んですが、どう すれば いいですか",
+        "romaji": "",
+        "es": "Quiero subir a la Tokyo Skytree, ¿cómo tendría que hacer?"
+      }
+    ]
+  },
+  {
+    "num": 36,
+    "title": "ように (yō ni) — \"Para que\" / \"De manera que\"",
+    "description": "② ように + なりました → cambio de estado conseguido",
+    "content": [
+      {
+        "type": "grammar_box",
+        "text": "📌 ように — Finalidad y cambio de estado\nEstructura: [verbo potencial / negativo] + ように + [acción]\n[verbo] + ように + なりました (cambio de estado)\n[verbo] + ように + しています (esfuerzo continuo)\nように tiene tres usos principales: (1) finalidad con verbos potenciales/negativos, (2) indicar que se ha logrado un cambio (なりました), (3) indicar esfuerzo continuo por lograr algo (しています)."
+      },
+      {
+        "type": "section",
+        "text": "① ように + acción → finalidad"
+      },
+      {
+        "type": "example",
+        "jp": "日本語が話せるように、毎日練習します。",
+        "furigana": "にほんご が はなせる ように、まいにち れんしゅう します",
+        "romaji": "",
+        "es": "Practico todos los días para poder hablar japonés."
+      },
+      {
+        "type": "example",
+        "jp": "ラッシュにあわないように、早くうちを出ます。",
+        "furigana": "らっしゅ に あわないように、はやく うち を でます",
+        "romaji": "",
+        "es": "Salgo de casa temprano para no encontrarme con las horas punta."
+      },
+      {
+        "type": "example",
+        "jp": "テレビの日本語がかなりわかるようになりました。",
+        "furigana": "てれび の にほんご が かなり わかる ように なりました",
+        "romaji": "",
+        "es": "He llegado al punto de entender bastante bien el japonés de la tele."
+      },
+      {
+        "type": "example",
+        "jp": "インターネットで何でもしらべられるようになりました。",
+        "furigana": "いんたーねっと で なんでも しらべられる ように なりました",
+        "romaji": "",
+        "es": "He llegado a poder buscar cualquier cosa en internet."
+      },
+      {
+        "type": "section",
+        "text": "③ ように + しています → esfuerzo continuo"
+      },
+      {
+        "type": "example",
+        "jp": "できるだけ10時までにうちへかえるようにしています。",
+        "furigana": "できるだけ じゅうじ までに うち へ かえる ように しています",
+        "romaji": "",
+        "es": "Procuro volver a casa antes de las 10 en la medida de lo posible."
+      },
+      {
+        "type": "example",
+        "jp": "もっと野菜をたべるようにしてください。",
+        "furigana": "もっと やさい を たべる ように してください",
+        "romaji": "",
+        "es": "Por favor procura comer más verduras."
+      }
+    ]
+  },
+  {
+    "num": 37,
+    "title": "Voz Pasiva (受身・うけみ)",
+    "description": "① Conjugación de la voz pasiva (受身形)",
+    "content": [
+      {
+        "type": "grammar_box",
+        "text": "📌 Voz Pasiva — Ser hecho / Sufrir una acción\nEstructura: Grupo I: última sílaba → あ段 + れます  /  Grupo II: + られます  /  Grupo III: こられます / されます\nLa voz pasiva en japonés tiene dos usos: (1) pasiva directa (algo es hecho por alguien) y (2) pasiva de sufrimiento (el hablante sufre las consecuencias de la acción de otro). Además se usa para eventos o acciones impersonales/formales."
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Forma ます",
+            "Forma Pasiva (受身)"
+          ],
+          [
+            "いいます → いわれます",
+            "かきます → かかれます"
+          ],
+          [
+            "おします → おされます",
+            "まちます → またれます"
+          ],
+          [
+            "よびます → よばれます",
+            "ふみます → ふまれます"
+          ],
+          [
+            "とります → とられます",
+            "ほめます → ほめられます"
+          ],
+          [
+            "しらべます → しらべられます",
+            "みます → みられます"
+          ],
+          [
+            "きます → こられます",
+            "します → されます"
+          ]
+        ]
+      },
+      {
+        "type": "section",
+        "text": "② Pasiva directa — algo es hecho"
+      },
+      {
+        "type": "example",
+        "jp": "わたしは部長にほめられました。",
+        "furigana": "わたし は ぶちょう に ほめられました",
+        "romaji": "",
+        "es": "Fui elogiado/a por el jefe de departamento."
+      },
+      {
+        "type": "example",
+        "jp": "大阪でてんらんかいがひらかれます。",
+        "furigana": "おおさか で てんらんかい が ひらかれます",
+        "romaji": "",
+        "es": "En Osaka se celebrará una exposición."
+      },
+      {
+        "type": "example",
+        "jp": "この美術館は100年まえに、たてられました。",
+        "furigana": "この びじゅつかん は ひゃくねん まえに、たてられました",
+        "romaji": "",
+        "es": "Este museo fue construido hace 100 años."
+      },
+      {
+        "type": "section",
+        "text": "③ Pasiva de sufrimiento — el sujeto sufre las consecuencias"
+      },
+      {
+        "type": "example",
+        "jp": "わたしはだれかにじてんしゃをとられました。",
+        "furigana": "わたし は だれか に じてんしゃ を とられました",
+        "romaji": "",
+        "es": "Alguien me robó la bicicleta (sufrí el robo)."
+      },
+      {
+        "type": "example",
+        "jp": "わたしははははマンガのほんをすてられました。",
+        "furigana": "わたし は はは に まんが の ほん を すてられました",
+        "romaji": "",
+        "es": "Mi madre tiró mis cómics (y yo sufrí las consecuencias)."
+      },
+      {
+        "type": "section",
+        "text": "④ Pasiva para acciones habituales / generales"
+      },
+      {
+        "type": "example",
+        "jp": "にほんのくるまはいろいろな国へゆしゅつされています。",
+        "furigana": "にほん の くるま は いろいろな くに へ ゆしゅつ されています",
+        "romaji": "",
+        "es": "Los coches japoneses son exportados a varios países."
+      },
+      {
+        "type": "example",
+        "jp": "このほんは世界中でよまれています。",
+        "furigana": "この ほん は せかいじゅう で よまれています",
+        "romaji": "",
+        "es": "Este libro es leído en todo el mundo."
+      }
+    ]
+  },
+  {
+    "num": 38,
+    "title": "Nominalización con の / こと (Convertir verbos en sustantivos)",
+    "description": "La nominalización convierte una oración o verbo en un sustantivo. En japonés se usan の y こと para este fin. Esto permite que frases enteras funcionen como sujeto u objeto.",
+    "content": [
+      {
+        "type": "grammar_box",
+        "text": "📌 Nominalización con の y こと\nEstructura: [verbo/adj en forma plain] + の/こと + は/が/を + predicado\nの es más personal y subjetivo (sentidos, emociones, percepciones directas). こと es más formal y abstracto. Ambos nominalizan verbos para que funcionen como sustantivos en la oración."
+      },
+      {
+        "type": "section",
+        "text": "① の — nominalización subjetiva/perceptiva"
+      },
+      {
+        "type": "example",
+        "jp": "一人でこの荷物をはこぶのは無理です。",
+        "furigana": "ひとり で この にもつ を はこぶ の は むり です",
+        "romaji": "",
+        "es": "Es imposible transportar este equipaje solo."
+      },
+      {
+        "type": "example",
+        "jp": "朝早くさんぽするのは気持ちがいいです。",
+        "furigana": "あさ はやく さんぽ する の は きもち が いい です",
+        "romaji": "",
+        "es": "Dar un paseo temprano por la mañana es agradable."
+      },
+      {
+        "type": "example",
+        "jp": "わたしはクラシック音楽をきくのが好きです。",
+        "furigana": "わたし は くらしっく おんがく を きく の が すき です",
+        "romaji": "",
+        "es": "Me gusta escuchar música clásica."
+      },
+      {
+        "type": "example",
+        "jp": "わたしは絵をかくのが下手です。",
+        "furigana": "わたし は え を かく の が へた です",
+        "romaji": "",
+        "es": "Soy malo dibujando."
+      },
+      {
+        "type": "section",
+        "text": "② の を 忘れました — olvidarse de hacer algo"
+      },
+      {
+        "type": "grammar_box",
+        "text": "📌 〜のを忘れました\nEstructura: [verbo plain] + のを + 忘れました\nのを conecta el verbo nominalizado con 忘れる. Literalmente 'olvidé el hecho de hacer X'. Se usa para acciones que se olvidaron realizar."
+      },
+      {
+        "type": "example",
+        "jp": "電気をけすのを忘れました。",
+        "furigana": "でんき を けす の を わすれました",
+        "romaji": "",
+        "es": "Se me olvidó apagar la luz."
+      },
+      {
+        "type": "example",
+        "jp": "薬をのむのを忘れました。",
+        "furigana": "くすり を のむ の を わすれました",
+        "romaji": "",
+        "es": "Se me olvidó tomar la medicina."
+      },
+      {
+        "type": "section",
+        "text": "③ 〜のを知っていますか — saber que algo ocurre"
+      },
+      {
+        "type": "grammar_box",
+        "text": "📌 〜のを知っていますか\nEstructura: [cláusula plain] + のを + 知っていますか\nPregunta si alguien conoce un hecho o evento. の nominaliza la cláusula entera para que funcione como objeto de 知る."
+      },
+      {
+        "type": "example",
+        "jp": "あした田中さんがたいいんするのを知っていますか。",
+        "furigana": "あした たなかさん が たいいん する の を しって いますか",
+        "romaji": "",
+        "es": "¿Sabe que el señor Tanaka sale del hospital mañana?"
+      },
+      {
+        "type": "example",
+        "jp": "駅前に大きなホテルができたのを知っていますか。",
+        "furigana": "えきまえ に おおきな ほてる が できた の を しって いますか",
+        "romaji": "",
+        "es": "¿Sabe que se construyó un gran hotel frente a la estación?"
+      },
+      {
+        "type": "section",
+        "text": "④ 〜のは〜です — identificar/definir"
+      },
+      {
+        "type": "example",
+        "jp": "父がうまれたのは北海道の小さな村です。",
+        "furigana": "ちち が うまれた の は ほっかいどう の ちいさな むら です",
+        "romaji": "",
+        "es": "El lugar donde nació mi padre es un pequeño pueblo de Hokkaido."
+      },
+      {
+        "type": "example",
+        "jp": "わたしがほしいのはイタリア製の靴です。",
+        "furigana": "わたし が ほしい の は いたりあせい の くつ です",
+        "romaji": "",
+        "es": "Lo que quiero son zapatos fabricados en Italia."
+      }
+    ]
+  },
+  {
+    "num": 39,
+    "title": "て形 ampliada: causas / ので / のに",
+    "description": "Se amplían los usos de la forma て para expresar causas o razones, y se introducen ので (porque, razón objetiva) y のに (aunque, contraste inesperado).",
+    "content": [
+      {
+        "type": "grammar_box",
+        "text": "📌 ので / のに — razón objetiva y contraste\nEstructura: [cláusula plain/te] + ので + [resultado] = porque (objetivo)\n[cláusula plain/te] + のに + [resultado] = aunque / a pesar de que (contraste)\nので expresa una razón natural u objetiva, más suave que から. のに expresa que el resultado es contrario a lo esperado; implica sorpresa o queja."
+      },
+      {
+        "type": "section",
+        "text": "① て形 para causa o contexto"
+      },
+      {
+        "type": "grammar_box",
+        "text": "メールをよんで、安心しました。\n【めーる を よんで、あんしん しました】\nMēru o yonde, anshin shimashita.\n→ Leí el correo y me quedé tranquilo. (te = causa/resultado)"
+      },
+      {
+        "type": "grammar_box",
+        "text": "家族にあえなくて、寂しいです。\n【かぞく に あえなくて、さびしい です】\nKazoku ni aenakute, sabishii desu.\n→ No puedo ver a mi familia y me siento solo. (te negativo = razón)"
+      },
+      {
+        "type": "example",
+        "jp": "問題がむずかしくて、わかりません。",
+        "furigana": "もんだい が むずかしくて、わかりません",
+        "romaji": "",
+        "es": "Los problemas son difíciles y no los entiendo."
+      },
+      {
+        "type": "section",
+        "text": "② ので — porque (razón objetiva y suave)"
+      },
+      {
+        "type": "example",
+        "jp": "病院へいくので、５時に帰ってもいいですか。",
+        "furigana": "びょういん へ いく ので、ごじ に かえって も いいですか",
+        "romaji": "",
+        "es": "Como voy al hospital, ¿está bien si vuelvo a las 5?"
+      },
+      {
+        "type": "example",
+        "jp": "バスがおくれたので、約束に間に合いませんでした。",
+        "furigana": "ばす が おくれた ので、やくそく に まに あいませんでした",
+        "romaji": "",
+        "es": "Como el autobús se retrasó, no llegué a tiempo a la cita."
+      },
+      {
+        "type": "section",
+        "text": "③ のに — aunque (contraste inesperado / queja)"
+      },
+      {
+        "type": "example",
+        "jp": "一生懸命べんきょうしたのに、試験の点が悪かったです。",
+        "furigana": "いっしょうけんめい べんきょう した のに、しけん の てん が わるかった です",
+        "romaji": "",
+        "es": "Aunque estudié muchísimo, mis notas en el examen fueron malas."
+      },
+      {
+        "type": "example",
+        "jp": "30分もまっているのに、タクシーが来ません。",
+        "furigana": "さんじゅっぷん も まって いる のに、たくしー が きません",
+        "romaji": "",
+        "es": "Aunque llevo esperando 30 minutos, el taxi no llega."
+      }
+    ]
+  },
+  {
+    "num": 40,
+    "title": "〜かどうか / 〜かわかりません / て + みます",
+    "description": "Se introduce la estructura para expresar incertidumbre sobre si algo es verdad o no (かどうか), preguntas indirectas (か〜かわかりません) y てみます para probar o intentar algo.",
+    "content": [
+      {
+        "type": "grammar_box",
+        "text": "📌 かどうか / 疑問詞+か / てみます\nEstructura: [cláusula plain] + かどうか + 確かめてください/わかりません = si... o no\n疑問詞 + [cláusula plain] + か + わかりません = no sé qué/cuándo/dónde...\n[verbo て] + みます = probar a hacer algo, intentar\nかどうか = 'si... o no' (sí/no indirecto). 疑問詞+か embute una pregunta dentro de otra oración. てみます expresa tentativa: hacer algo para ver qué pasa."
+      },
+      {
+        "type": "section",
+        "text": "① かどうか — si... o no"
+      },
+      {
+        "type": "example",
+        "jp": "会議室がつかえるかどうか、確かめてください。",
+        "furigana": "かいぎしつ が つかえる か どうか、たしかめて ください",
+        "romaji": "",
+        "es": "Por favor comprueba si se puede usar la sala de reuniones."
+      },
+      {
+        "type": "example",
+        "jp": "その話はほんとうかどうか、わかりません。",
+        "furigana": "その はなし は ほんとう か どうか、わかりません",
+        "romaji": "",
+        "es": "No sé si esa historia es verdad o no."
+      },
+      {
+        "type": "section",
+        "text": "② 疑問詞+か — preguntas indirectas"
+      },
+      {
+        "type": "example",
+        "jp": "どんな問題が試験にでるか、わかりません。",
+        "furigana": "どんな もんだい が しけん に でる か、わかりません",
+        "romaji": "",
+        "es": "No sé qué tipo de preguntas saldrán en el examen."
+      },
+      {
+        "type": "example",
+        "jp": "なんじに試験がはじまるか、わかりません。",
+        "furigana": "なんじ に しけん が はじまる か、わかりません",
+        "romaji": "",
+        "es": "No sé a qué hora empieza el examen."
+      },
+      {
+        "type": "section",
+        "text": "③ て + みます — probar / intentar"
+      },
+      {
+        "type": "grammar_box",
+        "text": "📌 てみます — intentar, probar\nEstructura: [verbo て] + みます\nみます (ver) añadido a la forma て expresa que se hace algo para ver el resultado. Equivale a 'probar a...', 'intentar...' o 'a ver si...'. No implica éxito."
+      },
+      {
+        "type": "example",
+        "jp": "この靴をはいてみます。",
+        "furigana": "この くつ を はいて みます",
+        "romaji": "",
+        "es": "Voy a probarme estos zapatos."
+      },
+      {
+        "type": "example",
+        "jp": "先生にきいてみます。",
+        "furigana": "せんせい に きいて みます",
+        "romaji": "",
+        "es": "Voy a intentar preguntarle al profesor."
+      },
+      {
+        "type": "example",
+        "jp": "日本語でせつめいしてみます。",
+        "furigana": "にほんご で せつめい して みます",
+        "romaji": "",
+        "es": "Voy a intentar explicarlo en japonés."
+      }
+    ]
+  },
+  {
+    "num": 41,
+    "title": "いただきます / くださいます / やります (Dar/recibir con jerarquía)",
+    "description": "Se amplía el sistema de dar y recibir con formas más formales y respetuosas: いただきます (recibir con humildad) y くださいます (recibir de alguien superior), y やります para dar a inferiores o animales.",
+    "content": [
+      {
+        "type": "grammar_box",
+        "text": "📌 いただきます / くださいます / やります\nEstructura: いただきます = recibir (yo, de alguien superior) — humilde\nくださいます = dar (alguien superior, a mí) — respetuoso\nやります = dar (a inferiores: niños pequeños, animales, plantas)\nTe+いただきます / て+くださいます = recibir el favor de que alguien haga algo\nLa jerarquía social determina qué verbo se usa. いただく es la forma humilde de もらう. くださる es la forma respetuosa de くれる. やる es la forma informal/descendente de あげる."
+      },
+      {
+        "type": "section",
+        "text": "① いただきました / くださいました — recibir con respeto"
+      },
+      {
+        "type": "example",
+        "jp": "わたしはしゃちょうにお土産をいただきました。",
+        "furigana": "わたし は しゃちょう に おみやげ を いただきました",
+        "romaji": "",
+        "es": "Recibí un regalo del presidente (de la empresa)."
+      },
+      {
+        "type": "example",
+        "jp": "しゃちょうがわたしにお土産をくださいました。",
+        "furigana": "しゃちょう が わたし に おみやげ を くださいました",
+        "romaji": "",
+        "es": "El presidente me dio un regalo."
+      },
+      {
+        "type": "section",
+        "text": "② やりました — dar a inferiores/animales"
+      },
+      {
+        "type": "example",
+        "jp": "わたしはまごにお菓子をやりました。",
+        "furigana": "わたし は まご に おかし を やりました",
+        "romaji": "",
+        "es": "Le di dulces a mi nieto."
+      },
+      {
+        "type": "example",
+        "jp": "ねこにえさをやりました。",
+        "furigana": "ねこ に えさ を やりました",
+        "romaji": "",
+        "es": "Le di comida al gato."
+      },
+      {
+        "type": "section",
+        "text": "③ て + いただきました / くださいました — favor recibido"
+      },
+      {
+        "type": "grammar_box",
+        "text": "📌 て + いただきました / くださいました\nEstructura: [verbo て] + いただきました = recibí el favor de que X (superior) hiciera\n[verbo て] + くださいました = X (superior) me hizo el favor de\nEstas formas expresan gratitud por un favor recibido de alguien de rango superior. Son formas muy educadas y frecuentes en contextos formales."
+      },
+      {
+        "type": "example",
+        "jp": "先生に旅行の写真をみせていただきました。",
+        "furigana": "せんせい に りょこう の しゃしん を みせて いただきました",
+        "romaji": "",
+        "es": "El profesor me mostró fotos del viaje (y se lo agradezco)."
+      },
+      {
+        "type": "example",
+        "jp": "先生が旅行の写真をみせてくださいました。",
+        "furigana": "せんせい が りょこう の しゃしん を みせて くださいました",
+        "romaji": "",
+        "es": "El profesor tuvo la amabilidad de mostrarme fotos del viaje."
+      },
+      {
+        "type": "section",
+        "text": "④ て + やりました — hacer algo por inferiores"
+      },
+      {
+        "type": "example",
+        "jp": "わたしは孫に英語をおしえてやりました。",
+        "furigana": "わたし は まご に えいご を おしえて やりました",
+        "romaji": "",
+        "es": "Le enseñé inglés a mi nieto."
+      },
+      {
+        "type": "section",
+        "text": "⑤ て + くださいませんか — petición respetuosa"
+      },
+      {
+        "type": "example",
+        "jp": "ひらがなでかいてくださいませんか。",
+        "furigana": "ひらがな で かいて くださいませんか",
+        "romaji": "",
+        "es": "¿Le importaría escribirlo en hiragana? (petición muy educada)"
+      }
+    ]
+  },
+  {
+    "num": 42,
+    "title": "ために (finalidad / causa) / のに (para lograr algo)",
+    "description": "ために expresa finalidad (para hacer algo) o causa (a causa de). のに expresa el medio o recurso necesario para lograr algo.",
+    "content": [
+      {
+        "type": "grammar_box",
+        "text": "📌 ために y のに\nEstructura: [verbo diccionario / sustantivo+の] + ために + [acción] = para (finalidad)\n[verbo diccionario / sustantivo] + のに + [recurso] = para (lograr algo, recurso necesario)\nために con verbo = finalidad voluntaria. ために con sustantivo = causa ('a causa de'). のに expresa el costo o recurso necesario para alcanzar algo (かかります, つかいます, etc.)."
+      },
+      {
+        "type": "section",
+        "text": "① ために — finalidad"
+      },
+      {
+        "type": "example",
+        "jp": "家を買うために、一生懸命働きます。",
+        "furigana": "いえ を かう ために、いっしょうけんめい はたらきます",
+        "romaji": "",
+        "es": "Trabajo con todas mis fuerzas para comprar una casa."
+      },
+      {
+        "type": "example",
+        "jp": "しょうらいのかぞくのために、一生懸命働きます。",
+        "furigana": "しょうらい の かぞく の ために、いっしょうけんめい はたらきます",
+        "romaji": "",
+        "es": "Trabajo duro para el futuro de mi familia."
+      },
+      {
+        "type": "section",
+        "text": "② のに — recurso/costo necesario"
+      },
+      {
+        "type": "example",
+        "jp": "このかばんは絵をはこぶのに使います。",
+        "furigana": "この かばん は え を はこぶ の に つかいます",
+        "romaji": "",
+        "es": "Esta bolsa se usa para transportar cuadros."
+      },
+      {
+        "type": "example",
+        "jp": "家をたてるのに2,000万円かかります。",
+        "furigana": "いえ を たてる の に にせんまんえん かかります",
+        "romaji": "",
+        "es": "Para construir una casa cuesta 20 millones de yenes."
+      },
+      {
+        "type": "example",
+        "jp": "ひっこしするのに２日かかります。",
+        "furigana": "ひっこし する の に ふつか かかります",
+        "romaji": "",
+        "es": "Para mudarse se tardan 2 días."
+      }
+    ]
+  },
+  {
+    "num": 43,
+    "title": "〜そうです (apariencia) / て + きます",
+    "description": "そうです con forma de adjetivo o verbo expresa que algo 'parece' o 'tiene pinta de' cierto estado. て + きます describe un cambio gradual que se está produciendo.",
+    "content": [
+      {
+        "type": "grammar_box",
+        "text": "📌 〜そうです (apariencia) / て + きます\nEstructura: Adj-い: い→そうです / Adj-な: な→そうです / Verbo: ます stem→そうです\n= parece que..., tiene pinta de..., está a punto de...\n[verbo て] + きます = ha empezado a..., viene cambiando (cambio gradual hacia el presente)\n⚠️ いい→よさそう (irregular). そうです de apariencia se distingue del そうです de rumor (cláusula plain+そうです). て+きます indica un proceso que comenzó en el pasado y continúa ahora."
+      },
+      {
+        "type": "section",
+        "text": "① 〜そうです — apariencia / parecer"
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Tipo",
+            "Forma base",
+            "Forma そう"
+          ],
+          [
+            "adj-い",
+            "たかい",
+            "たかそうです"
+          ],
+          [
+            "adj-い (irreg.)",
+            "いい",
+            "よさそうです ⚠️"
+          ],
+          [
+            "adj-な",
+            "やさしい (na)",
+            "やさしそうです"
+          ],
+          [
+            "verbo",
+            "おちます (ます stem)",
+            "おちそうです"
+          ]
+        ]
+      },
+      {
+        "type": "example",
+        "jp": "今にも火がきえそうです。",
+        "furigana": "いま に も ひ が きえ そう です",
+        "romaji": "",
+        "es": "Parece que el fuego va a apagarse en cualquier momento."
+      },
+      {
+        "type": "example",
+        "jp": "この料理はまずそうです。",
+        "furigana": "この りょうり は まず そう です",
+        "romaji": "",
+        "es": "Esta comida tiene pinta de estar mala."
+      },
+      {
+        "type": "example",
+        "jp": "彼女はやさしそうです。",
+        "furigana": "かのじょ は やさし そう です",
+        "romaji": "",
+        "es": "Ella parece amable."
+      },
+      {
+        "type": "section",
+        "text": "② て + きます — cambio gradual hacia ahora"
+      },
+      {
+        "type": "example",
+        "jp": "あしたは暑くなりそうです。",
+        "furigana": "あした は あつく なり そう です",
+        "romaji": "",
+        "es": "Parece que mañana va a hacer más calor."
+      },
+      {
+        "type": "example",
+        "jp": "ちょっと飲み物をかってきます。",
+        "furigana": "ちょっと のみもの を かって きます",
+        "romaji": "",
+        "es": "Voy a comprar algo de beber y vuelvo. (ir, hacer y volver)"
+      }
+    ]
+  },
+  {
+    "num": 44,
+    "title": "すぎます / やすい・にくい / 〜く/にします",
+    "description": "Se aprenden modificadores que se añaden al verbo o adjetivo: すぎ (exceso), やすい/にくい (facilidad/dificultad), y 〜くする/にする (convertir en cierto estado).",
+    "content": [
+      {
+        "type": "grammar_box",
+        "text": "📌 すぎます / やすい・にくい / 〜くする・にする\nEstructura: ます stem + すぎます = demasiado\nます stem + やすいです = fácil de hacer\nます stem + にくいです = difícil de hacer\nadj-い: い→くします / adj-な/sust.: にします = hacer que sea / convertir en\nすぎ expresa exceso de cantidad o grado. やすい/にくい describen la facilidad o dificultad inherente del objeto. 〜くする/にする expresa que alguien convierte algo en otro estado."
+      },
+      {
+        "type": "section",
+        "text": "① すぎます — demasiado"
+      },
+      {
+        "type": "example",
+        "jp": "お土産をかいすぎました。",
+        "furigana": "おみやげ を かい すぎました",
+        "romaji": "",
+        "es": "Compré demasiados souvenirs."
+      },
+      {
+        "type": "example",
+        "jp": "ごはんをたべすぎました。",
+        "furigana": "ごはん を たべ すぎました",
+        "romaji": "",
+        "es": "Comí demasiado."
+      },
+      {
+        "type": "example",
+        "jp": "この部屋はせますぎます。",
+        "furigana": "この へや は せま すぎます",
+        "romaji": "",
+        "es": "Esta habitación es demasiado pequeña."
+      },
+      {
+        "type": "section",
+        "text": "② やすい / にくい — facilidad o dificultad"
+      },
+      {
+        "type": "example",
+        "jp": "この薬はのみやすいです。",
+        "furigana": "この くすり は のみ やすい です",
+        "romaji": "",
+        "es": "Esta medicina es fácil de tomar."
+      },
+      {
+        "type": "example",
+        "jp": "東京はすみにくいです。",
+        "furigana": "とうきょう は すみ にくい です",
+        "romaji": "",
+        "es": "Tokio es difícil para vivir."
+      },
+      {
+        "type": "example",
+        "jp": "このコップはわれにくいです。",
+        "furigana": "この こっぷ は われ にくい です",
+        "romaji": "",
+        "es": "Este vaso es difícil de romper."
+      },
+      {
+        "type": "section",
+        "text": "③ 〜くします / 〜にします — cambiar el estado"
+      },
+      {
+        "type": "example",
+        "jp": "髪をみじかくします。",
+        "furigana": "かみ を みじかく します",
+        "romaji": "",
+        "es": "Me voy a cortar el pelo (hacerlo más corto)."
+      },
+      {
+        "type": "example",
+        "jp": "部屋をきれいにします。",
+        "furigana": "へや を きれい に します",
+        "romaji": "",
+        "es": "Voy a poner la habitación bonita / ordenar."
+      },
+      {
+        "type": "example",
+        "jp": "晩ごはんはカレーライスにします。",
+        "furigana": "ばんごはん は かれーらいす に します",
+        "romaji": "",
+        "es": "Voy a optar por curry para la cena. (decidir/elegir)"
+      }
+    ]
+  },
+  {
+    "num": 45,
+    "title": "〜場合は / のに (contraste) / ところです",
+    "description": "Se introduce 場合は para condicionales formales ('en caso de que'), y se amplía のに en su uso adversativo para expresar contradicción o decepción.",
+    "content": [
+      {
+        "type": "grammar_box",
+        "text": "📌 〜場合は / 〜のに\nEstructura: [verbo/adj plain / sustantivo] + 場合は + [acción] = en caso de que...\n[cláusula plain] + のに + [resultado contrario] = a pesar de que... / aunque...\n場合 (ばあい) = caso, situación. 場合は se usa en situaciones formales, instrucciones y condiciones hipotéticas. Es más formal que たら o と. のに con queja expresa decepción fuerte: el hablante esperaba un resultado diferente."
+      },
+      {
+        "type": "section",
+        "text": "① 〜場合は — en caso de que (formal)"
+      },
+      {
+        "type": "example",
+        "jp": "会社におくれる場合は、連絡してください。",
+        "furigana": "かいしゃ に おくれる ばあい は、れんらく して ください",
+        "romaji": "",
+        "es": "En caso de llegar tarde a la empresa, por favor avise."
+      },
+      {
+        "type": "example",
+        "jp": "荷物がつかない場合は、連絡してください。",
+        "furigana": "にもつ が つかない ばあい は、れんらく して ください",
+        "romaji": "",
+        "es": "En caso de que el equipaje no llegue, por favor contáctenos."
+      },
+      {
+        "type": "example",
+        "jp": "コピー機の調子がわるい場合は、連絡してください。",
+        "furigana": "こぴーき の ちょうし が わるい ばあい は、れんらく して ください",
+        "romaji": "",
+        "es": "En caso de que la fotocopiadora funcione mal, avísenos."
+      },
+      {
+        "type": "section",
+        "text": "② のに — contraste y queja"
+      },
+      {
+        "type": "example",
+        "jp": "一生懸命べんきょうしたのに、試験の点が悪かったです。",
+        "furigana": "いっしょうけんめい べんきょう した のに、しけん の てん が わるかった です",
+        "romaji": "",
+        "es": "Aunque estudié muchísimo, saqué mala nota en el examen."
+      },
+      {
+        "type": "example",
+        "jp": "このレストランはおいしくないのに、値段が高いです。",
+        "furigana": "この れすとらん は おいしくない のに、ねだん が たかい です",
+        "romaji": "",
+        "es": "Aunque este restaurante no está bueno, los precios son altos."
+      }
+    ]
+  },
+  {
+    "num": 46,
+    "title": "ところです / ばかりです / はずです",
+    "description": "Tres expresiones para hablar de momento temporal de una acción: ところ (justo ahora), ばかり (acaba de), はず (se supone que / debería ser).",
+    "content": [
+      {
+        "type": "grammar_box",
+        "text": "📌 ところです / ばかりです / はずです\nEstructura: [verbo diccionario] + ところです = estar a punto de\n[verbo て] + いる + ところです = estar justo haciendo\n[verbo た] + ところです = acabar de\n[verbo た] + ばかりです = hace muy poco que\n[cláusula plain] + はずです = se supone que / debería ser\nところ indica el momento preciso de la acción. ばかり enfatiza que la acción acaba de ocurrir y que no ha pasado tiempo. はずです expresa expectativa o deducción lógica basada en información."
+      },
+      {
+        "type": "section",
+        "text": "① ところです — momento preciso"
+      },
+      {
+        "type": "example",
+        "jp": "ちょうど今から試合がはじまるところです。",
+        "furigana": "ちょうど いま から しあい が はじまる ところ です",
+        "romaji": "",
+        "es": "El partido está a punto de empezar justo ahora."
+      },
+      {
+        "type": "example",
+        "jp": "今部屋をかたづけているところです。",
+        "furigana": "いま へや を かたづけて いる ところ です",
+        "romaji": "",
+        "es": "Ahora mismo estoy justo ordenando la habitación."
+      },
+      {
+        "type": "example",
+        "jp": "うちへかえってきたところです。",
+        "furigana": "うち へ かえって きた ところ です",
+        "romaji": "",
+        "es": "Acabo de llegar a casa."
+      },
+      {
+        "type": "section",
+        "text": "② ばかりです — hace muy poco"
+      },
+      {
+        "type": "example",
+        "jp": "わたしはさっき昼ごはんを食べたばかりです。",
+        "furigana": "わたし は さっき ひるごはん を たべた ばかり です",
+        "romaji": "",
+        "es": "Acabo de comer hace un momento."
+      },
+      {
+        "type": "example",
+        "jp": "ワットさんは先月けっこんしたばかりです。",
+        "furigana": "わっとさん は せんげつ けっこん した ばかり です",
+        "romaji": "",
+        "es": "El señor Watt se acaba de casar el mes pasado."
+      },
+      {
+        "type": "section",
+        "text": "③ はずです — se supone que / debería"
+      },
+      {
+        "type": "example",
+        "jp": "荷物はあしたとどくはずです。",
+        "furigana": "にもつ は あした とどく はず です",
+        "romaji": "",
+        "es": "Se supone que el equipaje llega mañana."
+      },
+      {
+        "type": "example",
+        "jp": "グプタさんはお酒をのまないはずです。",
+        "furigana": "ぐぷたさん は おさけ を のまない はず です",
+        "romaji": "",
+        "es": "Se supone que el señor Gupta no bebe alcohol."
+      },
+      {
+        "type": "example",
+        "jp": "課長はドイツ語がじょうずなはずです。",
+        "furigana": "かちょう は どいつご が じょうずな はず です",
+        "romaji": "",
+        "es": "Se supone que el jefe de sección es bueno en alemán."
+      }
+    ]
+  },
+  {
+    "num": 47,
+    "title": "〜そうです (rumor/información) / 〜ようです (apariencia/deducción)",
+    "description": "Se distinguen dos usos de そうです: el de apariencia (lección 43) y el de rumor o información oída. Se introduce ようです para expresar deducciones basadas en evidencia.",
+    "content": [
+      {
+        "type": "grammar_box",
+        "text": "📌 そうです (rumor) vs ようです (deducción)\nEstructura: [cláusula plain completa] + そうです = he oído que..., dicen que... (información de segunda mano)\n[cláusula plain completa] + ようです = parece que..., da la impresión de que... (deducción propia)\n⚠️ DIFERENCIA CLAVE: そうです de rumor usa la cláusula COMPLETA en plain form. そうです de apariencia usa solo el STEM (ます stem o adj sin い). ようです = deducción del hablante basada en lo que observa."
+      },
+      {
+        "type": "section",
+        "text": "① そうです — rumor / información oída"
+      },
+      {
+        "type": "example",
+        "jp": "あしたは雪がふるそうです。",
+        "furigana": "あした は ゆき が ふる そう です",
+        "romaji": "",
+        "es": "He oído que mañana nevará. (rumor/información)"
+      },
+      {
+        "type": "example",
+        "jp": "台風はこないそうです。",
+        "furigana": "たいふう は こない そう です",
+        "romaji": "",
+        "es": "Dicen que el tifón no vendrá."
+      },
+      {
+        "type": "example",
+        "jp": "さっぽろの雪祭りはきれいだそうです。",
+        "furigana": "さっぽろ の ゆきまつり は きれいだ そう です",
+        "romaji": "",
+        "es": "He oído que el Festival de la Nieve de Sapporo es precioso."
+      },
+      {
+        "type": "example",
+        "jp": "あしたの天気はくもりだそうです。",
+        "furigana": "あした の てんき は くもりだ そう です",
+        "romaji": "",
+        "es": "Dicen que el tiempo de mañana será nublado."
+      },
+      {
+        "type": "section",
+        "text": "② ようです — deducción / apariencia basada en evidencia"
+      },
+      {
+        "type": "example",
+        "jp": "コンサートがはじまるようです。",
+        "furigana": "こんさーと が はじまる よう です",
+        "romaji": "",
+        "es": "Parece que el concierto está a punto de empezar."
+      },
+      {
+        "type": "example",
+        "jp": "課長は事務所にいないようです。",
+        "furigana": "かちょう は じむしょ に いない よう です",
+        "romaji": "",
+        "es": "Parece que el jefe de sección no está en la oficina."
+      },
+      {
+        "type": "example",
+        "jp": "部長は甘い物がすきなようです。",
+        "furigana": "ぶちょう は あまい もの が すきな よう です",
+        "romaji": "",
+        "es": "Parece que al director le gustan los dulces."
+      }
+    ]
+  },
+  {
+    "num": 48,
+    "title": "Voz causativa (使役形・しえきけい)",
+    "description": "La voz causativa expresa que alguien hace que otro haga algo, o permite que alguien haga algo. Es equivalente a 'hacer hacer' o 'dejar hacer' en español.",
+    "content": [
+      {
+        "type": "grammar_box",
+        "text": "📌 Formación de la voz causativa\nEstructura: Grupo I: última sílaba → あ段 + せます (う→わせます)\nGrupo II: ます stem + させます\nGrupo III: きます → こさせます / します → させます\nDos usos: (1) CAUSAR: [persona] に [acción] させます = hacer que alguien haga algo (obligar). (2) PERMITIR: [persona] に [acción] させます = dejar que alguien haga algo. El contexto determina cuál es."
+      },
+      {
+        "type": "section",
+        "text": "① Conjugación causativa"
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Forma ます",
+            "Forma causativa"
+          ],
+          [
+            "てつだいます → てつだわせます",
+            "かきます → かかせます"
+          ],
+          [
+            "いそぎます → いそがせます",
+            "なおします → なおさせます"
+          ],
+          [
+            "もちます → もたせます",
+            "はこびます → はこばせます"
+          ],
+          [
+            "のみます → のませます",
+            "たべます → たべさせます"
+          ],
+          [
+            "しらべます → しらべさせます",
+            "きます → こさせます ⚠️"
+          ],
+          [
+            "します → させます ⚠️"
+          ]
+        ]
+      },
+      {
+        "type": "section",
+        "text": "② Causativa para obligar (〜させます)"
+      },
+      {
+        "type": "example",
+        "jp": "部長はミラーさんをアメリカへしゅっちょうさせました。",
+        "furigana": "ぶちょう は みらーさん を あめりか へ しゅっちょう させました",
+        "romaji": "",
+        "es": "El director envió al señor Miller en viaje de negocios a EE. UU."
+      },
+      {
+        "type": "example",
+        "jp": "わたしはこどもに本をよませます。",
+        "furigana": "わたし は こども に ほん を よませます",
+        "romaji": "",
+        "es": "Hago que mi hijo lea libros."
+      },
+      {
+        "type": "section",
+        "text": "③ Causativa para permitir / libre albedrío"
+      },
+      {
+        "type": "example",
+        "jp": "わたしはむすこを好きな人とけっこんさせました。",
+        "furigana": "わたし は むすこ を すきな ひと と けっこん させました",
+        "romaji": "",
+        "es": "Dejé que mi hijo se casara con la persona que quiere."
+      },
+      {
+        "type": "example",
+        "jp": "わたしはこどもにすきなしごとをさせます。",
+        "furigana": "わたし は こども に すきな しごと を させます",
+        "romaji": "",
+        "es": "Dejo que mi hijo haga el trabajo que le gusta."
+      },
+      {
+        "type": "section",
+        "text": "④ Causativa + いただけませんか — pedir permiso con humildad"
+      },
+      {
+        "type": "example",
+        "jp": "すみませんが、あしたやすませていただけませんか。",
+        "furigana": "すみません が、あした やすませて いただけませんか",
+        "romaji": "",
+        "es": "Disculpe, ¿le importaría que me tomara el día libre mañana?"
+      },
+      {
+        "type": "example",
+        "jp": "この資料をコピーさせていただけませんか。",
+        "furigana": "この しりょう を こぴー させて いただけませんか",
+        "romaji": "",
+        "es": "¿Le importaría que fotocopiara estos materiales?"
+      }
+    ]
+  },
+  {
+    "num": 49,
+    "title": "Formas honoríficas (尊敬語・そんけいご)",
+    "description": "El japonés tiene un sistema de lenguaje respetuoso (敬語・けいご). La forma honorífica (尊敬語) eleva las acciones de la persona a quien se respeta.",
+    "content": [
+      {
+        "type": "grammar_box",
+        "text": "📌 Formas honoríficas — 尊敬語\nEstructura: Grupo I: あ段 + れます  /  Grupo II: ます stem + られます  /  Grupo III: こられます / されます\nFormas especiales (irregulares): いきます/きます/います → いらっしゃいます\nたべます/のみます → めしあがります  /  します → なさいます\nくれます → くださいます  /  しっています → ごぞんじです\nみます → ごらんになります  /  きます → きかれます o うかがいます (contexto)\nLas formas honoríficas se usan para hablar de las acciones de personas de rango superior (cliente, jefe, profesor, anciano). El hablante nunca las usa para referirse a sus propias acciones."
+      },
+      {
+        "type": "section",
+        "text": "① Conjugación honorífica regular"
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Forma ます",
+            "Forma honorífica"
+          ],
+          [
+            "あいます → あわれます",
+            "ききます → きかれます"
+          ],
+          [
+            "いそぎます → いそがれます",
+            "はなします → はなされます"
+          ],
+          [
+            "まちます → またれます",
+            "よびます → よばれます"
+          ],
+          [
+            "よみます → よまれます",
+            "かえります → かえられます"
+          ],
+          [
+            "たべます → たべられます",
+            "でます → でられます"
+          ],
+          [
+            "きます → こられます ⚠️",
+            "します → されます ⚠️"
+          ]
+        ]
+      },
+      {
+        "type": "section",
+        "text": "② Formas honoríficas especiales (irregulares)"
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Forma normal",
+            "Forma honorífica especial"
+          ],
+          [
+            "いきます/きます/います",
+            "いらっしゃいます"
+          ],
+          [
+            "たべます/のみます",
+            "めしあがります"
+          ],
+          [
+            "します",
+            "なさいます"
+          ],
+          [
+            "くれます",
+            "くださいます"
+          ],
+          [
+            "しっています",
+            "ごぞんじです"
+          ],
+          [
+            "みます",
+            "ごらんになります"
+          ]
+        ]
+      },
+      {
+        "type": "section",
+        "text": "③ Ejemplos de uso"
+      },
+      {
+        "type": "example",
+        "jp": "伊藤先生はさっきこられました。",
+        "furigana": "いとうせんせい は さっき こられました",
+        "romaji": "",
+        "es": "El profesor Itō llegó hace un momento."
+      },
+      {
+        "type": "grammar_box",
+        "text": "社長はお出かけになりました。\n【しゃちょう は おでかけ に なりました】\nShachō wa odekake ni narimashita.\n→ El presidente ha salido. (おVerbになります = honorífico)"
+      },
+      {
+        "type": "example",
+        "jp": "社長は会議室にいらっしゃいます。",
+        "furigana": "しゃちょう は かいぎしつ に いらっしゃいます",
+        "romaji": "",
+        "es": "El presidente está en la sala de reuniones."
+      },
+      {
+        "type": "example",
+        "jp": "ゴルフをなさいます。",
+        "furigana": "ごるふ を なさいます",
+        "romaji": "",
+        "es": "Juega al golf (forma honorífica de します)."
+      },
+      {
+        "type": "section",
+        "text": "④ お〜ください — forma imperativa honorífica"
+      },
+      {
+        "type": "example",
+        "jp": "おかけください。",
+        "furigana": "おかけ ください",
+        "romaji": "",
+        "es": "Por favor siéntese. (お + ます stem + ください)"
+      },
+      {
+        "type": "example",
+        "jp": "ごちゅういください。",
+        "furigana": "ご ちゅうい ください",
+        "romaji": "",
+        "es": "Por favor tenga cuidado. (ご + sustantivo sino-japonés + ください)"
+      }
+    ]
+  },
+  {
+    "num": 50,
+    "title": "Lenguaje humilde (謙譲語・けんじょうご)",
+    "description": "La forma humilde (謙譲語) se usa para hablar de las propias acciones de manera respetuosa, rebajándose ante el interlocutor. Es la contraparte de la forma honorífica.",
+    "content": [
+      {
+        "type": "grammar_box",
+        "text": "📌 Formas humildes — 謙譲語\nEstructura: お + ます stem + します = forma humilde de acción propia\nご + sustantivo sino-japonés + します = ídem con vocabulario chino\nFormas especiales: いきます/きます → まいります  /  います → おります\nたべます/のみます → いただきます  /  いいます → もうします\nします → いたします  /  しっています → ぞんじております\nみます → はいけんします  /  ききます → うかがいます\nあいます → おめにかかります\nLa forma humilde se usa para hablar de UNO MISMO con modestia ante una persona de rango superior. Nunca se usa para hablar de las acciones de esa persona superior."
+      },
+      {
+        "type": "section",
+        "text": "① Formas humildes especiales"
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Forma normal",
+            "Forma humilde"
+          ],
+          [
+            "いきます / きます",
+            "まいります"
+          ],
+          [
+            "います",
+            "おります"
+          ],
+          [
+            "たべます / のみます / もらいます",
+            "いただきます"
+          ],
+          [
+            "いいます",
+            "もうします"
+          ],
+          [
+            "します",
+            "いたします"
+          ],
+          [
+            "しっています",
+            "ぞんじております"
+          ],
+          [
+            "みます",
+            "はいけんします"
+          ],
+          [
+            "ききます / (うちへ)いきます",
+            "うかがいます"
+          ],
+          [
+            "あいます",
+            "おめにかかります"
+          ]
+        ]
+      },
+      {
+        "type": "section",
+        "text": "② お〜します / ご〜します — acción humilde"
+      },
+      {
+        "type": "example",
+        "jp": "私がコーヒーをおいれします。",
+        "furigana": "わたくし が こーひー を おいれ します",
+        "romaji": "",
+        "es": "Yo le prepararé el café. (お + ます stem + します)"
+      },
+      {
+        "type": "example",
+        "jp": "私が駅までおおくりします。",
+        "furigana": "わたくし が えき まで おおくり します",
+        "romaji": "",
+        "es": "Yo le acompañaré hasta la estación."
+      },
+      {
+        "type": "example",
+        "jp": "私がきょうの予定をごせつめいします。",
+        "furigana": "わたくし が きょう の よてい を ごせつめい します",
+        "romaji": "",
+        "es": "Yo explicaré el plan de hoy. (ご + sustantivo sino-japonés + します)"
+      },
+      {
+        "type": "section",
+        "text": "③ Ejemplos de uso de formas humildes"
+      },
+      {
+        "type": "grammar_box",
+        "text": "あした３時にお宅へうかがいます。\n【あした さんじ に おたく へ うかがいます】\nAshita sanji ni otaku e ukagaimasu.\n→ Mañana iré a su casa a las 3. (うかがう = forma humilde de ir/visitar)"
+      },
+      {
+        "type": "example",
+        "jp": "私はミラーともうします。",
+        "furigana": "わたくし は みらー と もうします",
+        "romaji": "",
+        "es": "Me llamo Miller. (forma humilde de いいます)"
+      },
+      {
+        "type": "example",
+        "jp": "私はIMCにつとめております。",
+        "furigana": "わたくし は IMC に つとめて おります",
+        "romaji": "",
+        "es": "Trabajo en IMC. (forma humilde de はたらいています)"
+      }
+    ]
+  }
+]
